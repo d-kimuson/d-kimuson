@@ -7,7 +7,7 @@
 ## :link: Links
 
 - [:blue_book: Blog](https://kimuson.dev)
-- [:bird: Twitter](https://twitter.com/uzimaru0000)
+- [:bird: Twitter](https://twitter.com/_kimuson)
 
 ## :fire: Skills
 
