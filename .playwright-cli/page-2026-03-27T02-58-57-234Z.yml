@@ -1,0 +1,688 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e5]:
+      - heading "Navigation Menu" [level=2] [ref=e6]
+      - button "Toggle navigation" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle navigation" [ref=e11]
+          - link "Homepage" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img [ref=e13]
+          - generic [ref=e15]:
+            - link "Sign in" [ref=e16] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fd-kimuson%2Fd-kimuson
+            - button "Appearance settings" [disabled] [ref=e19]:
+              - img [ref=e20]
+        - generic [ref=e23]:
+          - navigation "Global" [ref=e26]:
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - generic [ref=e29]:
+                  - button "Platform" [ref=e30]:
+                    - text: Platform
+                    - img [ref=e31]
+                  - generic [ref=e33]:
+                    - list [ref=e34]:
+                      - listitem [ref=e35]:
+                        - generic [ref=e36]:
+                          - text: AI CODE CREATION
+                          - list [ref=e37]:
+                            - listitem [ref=e38]:
+                              - link "GitHub CopilotWrite better code with AI" [ref=e39] [cursor=pointer]:
+                                - /url: https://github.com/features/copilot
+                                - generic [ref=e40]:
+                                  - img [ref=e41]
+                                  - text: GitHub CopilotWrite better code with AI
+                            - listitem [ref=e44]:
+                              - link "GitHub SparkBuild and deploy intelligent apps" [ref=e45] [cursor=pointer]:
+                                - /url: https://github.com/features/spark
+                                - generic [ref=e46]:
+                                  - img [ref=e47]
+                                  - text: GitHub SparkBuild and deploy intelligent apps
+                            - listitem [ref=e49]:
+                              - link "GitHub ModelsManage and compare prompts" [ref=e50] [cursor=pointer]:
+                                - /url: https://github.com/features/models
+                                - generic [ref=e51]:
+                                  - img [ref=e52]
+                                  - text: GitHub ModelsManage and compare prompts
+                            - listitem [ref=e54]:
+                              - link "MCP RegistryNewIntegrate external tools" [ref=e55] [cursor=pointer]:
+                                - /url: https://github.com/mcp
+                                - generic [ref=e56]:
+                                  - img [ref=e57]
+                                  - generic [ref=e60]:
+                                    - text: MCP Registry
+                                    - superscript [ref=e61]: New
+                                  - text: Integrate external tools
+                      - listitem [ref=e62]:
+                        - generic [ref=e63]:
+                          - text: DEVELOPER WORKFLOWS
+                          - list [ref=e64]:
+                            - listitem [ref=e65]:
+                              - link "ActionsAutomate any workflow" [ref=e66] [cursor=pointer]:
+                                - /url: https://github.com/features/actions
+                                - generic [ref=e67]:
+                                  - img [ref=e68]
+                                  - text: ActionsAutomate any workflow
+                            - listitem [ref=e70]:
+                              - link "CodespacesInstant dev environments" [ref=e71] [cursor=pointer]:
+                                - /url: https://github.com/features/codespaces
+                                - generic [ref=e72]:
+                                  - img [ref=e73]
+                                  - text: CodespacesInstant dev environments
+                            - listitem [ref=e76]:
+                              - link "IssuesPlan and track work" [ref=e77] [cursor=pointer]:
+                                - /url: https://github.com/features/issues
+                                - generic [ref=e78]:
+                                  - img [ref=e79]
+                                  - text: IssuesPlan and track work
+                            - listitem [ref=e81]:
+                              - link "Code ReviewManage code changes" [ref=e82] [cursor=pointer]:
+                                - /url: https://github.com/features/code-review
+                                - generic [ref=e83]:
+                                  - img [ref=e84]
+                                  - text: Code ReviewManage code changes
+                      - listitem [ref=e86]:
+                        - generic [ref=e87]:
+                          - text: APPLICATION SECURITY
+                          - list [ref=e88]:
+                            - listitem [ref=e89]:
+                              - link "GitHub Advanced SecurityFind and fix vulnerabilities" [ref=e90] [cursor=pointer]:
+                                - /url: https://github.com/security/advanced-security
+                                - generic [ref=e91]:
+                                  - img [ref=e92]
+                                  - text: GitHub Advanced SecurityFind and fix vulnerabilities
+                            - listitem [ref=e95]:
+                              - link "Code securitySecure your code as you build" [ref=e96] [cursor=pointer]:
+                                - /url: https://github.com/security/advanced-security/code-security
+                                - generic [ref=e97]:
+                                  - img [ref=e98]
+                                  - text: Code securitySecure your code as you build
+                            - listitem [ref=e101]:
+                              - link "Secret protectionStop leaks before they start" [ref=e102] [cursor=pointer]:
+                                - /url: https://github.com/security/advanced-security/secret-protection
+                                - generic [ref=e103]:
+                                  - img [ref=e104]
+                                  - text: Secret protectionStop leaks before they start
+                      - listitem [ref=e106]:
+                        - generic [ref=e107]:
+                          - text: EXPLORE
+                          - list [ref=e108]:
+                            - listitem [ref=e109]:
+                              - link "Why GitHub" [ref=e110] [cursor=pointer]:
+                                - /url: https://github.com/why-github
+                            - listitem [ref=e111]:
+                              - link "Documentation" [ref=e112] [cursor=pointer]:
+                                - /url: https://docs.github.com
+                                - text: Documentation
+                                - img [ref=e113]
+                            - listitem [ref=e115]:
+                              - link "Blog" [ref=e116] [cursor=pointer]:
+                                - /url: https://github.blog
+                                - text: Blog
+                                - img [ref=e117]
+                            - listitem [ref=e119]:
+                              - link "Changelog" [ref=e120] [cursor=pointer]:
+                                - /url: https://github.blog/changelog
+                                - text: Changelog
+                                - img [ref=e121]
+                            - listitem [ref=e123]:
+                              - link "Marketplace" [ref=e124] [cursor=pointer]:
+                                - /url: https://github.com/marketplace
+                    - link "View all features" [ref=e126] [cursor=pointer]:
+                      - /url: https://github.com/features
+                      - text: View all features
+                      - img [ref=e127]
+              - listitem [ref=e129]:
+                - generic [ref=e130]:
+                  - button "Solutions" [ref=e131]:
+                    - text: Solutions
+                    - img [ref=e132]
+                  - generic [ref=e134]:
+                    - list [ref=e135]:
+                      - listitem [ref=e136]:
+                        - generic [ref=e137]:
+                          - text: BY COMPANY SIZE
+                          - list [ref=e138]:
+                            - listitem [ref=e139]:
+                              - link "Enterprises" [ref=e140] [cursor=pointer]:
+                                - /url: https://github.com/enterprise
+                            - listitem [ref=e141]:
+                              - link "Small and medium teams" [ref=e142] [cursor=pointer]:
+                                - /url: https://github.com/team
+                            - listitem [ref=e143]:
+                              - link "Startups" [ref=e144] [cursor=pointer]:
+                                - /url: https://github.com/enterprise/startups
+                            - listitem [ref=e145]:
+                              - link "Nonprofits" [ref=e146] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/nonprofits
+                      - listitem [ref=e147]:
+                        - generic [ref=e148]:
+                          - text: BY USE CASE
+                          - list [ref=e149]:
+                            - listitem [ref=e150]:
+                              - link "App Modernization" [ref=e151] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/app-modernization
+                            - listitem [ref=e152]:
+                              - link "DevSecOps" [ref=e153] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/devsecops
+                            - listitem [ref=e154]:
+                              - link "DevOps" [ref=e155] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/devops
+                            - listitem [ref=e156]:
+                              - link "CI/CD" [ref=e157] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/ci-cd
+                            - listitem [ref=e158]:
+                              - link "View all use cases" [ref=e159] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case
+                                - text: View all use cases
+                                - img [ref=e160]
+                      - listitem [ref=e162]:
+                        - generic [ref=e163]:
+                          - text: BY INDUSTRY
+                          - list [ref=e164]:
+                            - listitem [ref=e165]:
+                              - link "Healthcare" [ref=e166] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/healthcare
+                            - listitem [ref=e167]:
+                              - link "Financial services" [ref=e168] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/financial-services
+                            - listitem [ref=e169]:
+                              - link "Manufacturing" [ref=e170] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/manufacturing
+                            - listitem [ref=e171]:
+                              - link "Government" [ref=e172] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/government
+                            - listitem [ref=e173]:
+                              - link "View all industries" [ref=e174] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry
+                                - text: View all industries
+                                - img [ref=e175]
+                    - link "View all solutions" [ref=e178] [cursor=pointer]:
+                      - /url: https://github.com/solutions
+                      - text: View all solutions
+                      - img [ref=e179]
+              - listitem [ref=e181]:
+                - generic [ref=e182]:
+                  - button "Resources" [ref=e183]:
+                    - text: Resources
+                    - img [ref=e184]
+                  - generic [ref=e186]:
+                    - list [ref=e187]:
+                      - listitem [ref=e188]:
+                        - generic [ref=e189]:
+                          - text: EXPLORE BY TOPIC
+                          - list [ref=e190]:
+                            - listitem [ref=e191]:
+                              - link "AI" [ref=e192] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=ai
+                            - listitem [ref=e193]:
+                              - link "Software Development" [ref=e194] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=software-development
+                            - listitem [ref=e195]:
+                              - link "DevOps" [ref=e196] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=devops
+                            - listitem [ref=e197]:
+                              - link "Security" [ref=e198] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=security
+                            - listitem [ref=e199]:
+                              - link "View all topics" [ref=e200] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles
+                                - text: View all topics
+                                - img [ref=e201]
+                      - listitem [ref=e203]:
+                        - generic [ref=e204]:
+                          - text: EXPLORE BY TYPE
+                          - list [ref=e205]:
+                            - listitem [ref=e206]:
+                              - link "Customer stories" [ref=e207] [cursor=pointer]:
+                                - /url: https://github.com/customer-stories
+                            - listitem [ref=e208]:
+                              - link "Events & webinars" [ref=e209] [cursor=pointer]:
+                                - /url: https://github.com/resources/events
+                            - listitem [ref=e210]:
+                              - link "Ebooks & reports" [ref=e211] [cursor=pointer]:
+                                - /url: https://github.com/resources/whitepapers
+                            - listitem [ref=e212]:
+                              - link "Business insights" [ref=e213] [cursor=pointer]:
+                                - /url: https://github.com/solutions/executive-insights
+                            - listitem [ref=e214]:
+                              - link "GitHub Skills" [ref=e215] [cursor=pointer]:
+                                - /url: https://skills.github.com
+                                - text: GitHub Skills
+                                - img [ref=e216]
+                      - listitem [ref=e218]:
+                        - generic [ref=e219]:
+                          - text: SUPPORT & SERVICES
+                          - list [ref=e220]:
+                            - listitem [ref=e221]:
+                              - link "Documentation" [ref=e222] [cursor=pointer]:
+                                - /url: https://docs.github.com
+                                - text: Documentation
+                                - img [ref=e223]
+                            - listitem [ref=e225]:
+                              - link "Customer support" [ref=e226] [cursor=pointer]:
+                                - /url: https://support.github.com
+                                - text: Customer support
+                                - img [ref=e227]
+                            - listitem [ref=e229]:
+                              - link "Community forum" [ref=e230] [cursor=pointer]:
+                                - /url: https://github.com/orgs/community/discussions
+                            - listitem [ref=e231]:
+                              - link "Trust center" [ref=e232] [cursor=pointer]:
+                                - /url: https://github.com/trust-center
+                            - listitem [ref=e233]:
+                              - link "Partners" [ref=e234] [cursor=pointer]:
+                                - /url: https://github.com/partners
+                    - link "View all resources" [ref=e236] [cursor=pointer]:
+                      - /url: https://github.com/resources
+                      - text: View all resources
+                      - img [ref=e237]
+              - listitem [ref=e239]:
+                - generic [ref=e240]:
+                  - button "Open Source" [ref=e241]:
+                    - text: Open Source
+                    - img [ref=e242]
+                  - list [ref=e245]:
+                    - listitem [ref=e246]:
+                      - generic [ref=e247]:
+                        - text: COMMUNITY
+                        - list [ref=e248]:
+                          - listitem [ref=e249]:
+                            - link "GitHub SponsorsFund open source developers" [ref=e250] [cursor=pointer]:
+                              - /url: https://github.com/sponsors
+                              - generic [ref=e251]:
+                                - img [ref=e252]
+                                - text: GitHub SponsorsFund open source developers
+                    - listitem [ref=e254]:
+                      - generic [ref=e255]:
+                        - text: PROGRAMS
+                        - list [ref=e256]:
+                          - listitem [ref=e257]:
+                            - link "Security Lab" [ref=e258] [cursor=pointer]:
+                              - /url: https://securitylab.github.com
+                              - text: Security Lab
+                              - img [ref=e259]
+                          - listitem [ref=e261]:
+                            - link "Maintainer Community" [ref=e262] [cursor=pointer]:
+                              - /url: https://maintainers.github.com
+                              - text: Maintainer Community
+                              - img [ref=e263]
+                          - listitem [ref=e265]:
+                            - link "Accelerator" [ref=e266] [cursor=pointer]:
+                              - /url: https://github.com/accelerator
+                          - listitem [ref=e267]:
+                            - link "GitHub Stars" [ref=e268] [cursor=pointer]:
+                              - /url: https://stars.github.com
+                              - text: GitHub Stars
+                              - img [ref=e269]
+                          - listitem [ref=e271]:
+                            - link "Archive Program" [ref=e272] [cursor=pointer]:
+                              - /url: https://archiveprogram.github.com
+                              - text: Archive Program
+                              - img [ref=e273]
+                    - listitem [ref=e275]:
+                      - generic [ref=e276]:
+                        - text: REPOSITORIES
+                        - list [ref=e277]:
+                          - listitem [ref=e278]:
+                            - link "Topics" [ref=e279] [cursor=pointer]:
+                              - /url: https://github.com/topics
+                          - listitem [ref=e280]:
+                            - link "Trending" [ref=e281] [cursor=pointer]:
+                              - /url: https://github.com/trending
+                          - listitem [ref=e282]:
+                            - link "Collections" [ref=e283] [cursor=pointer]:
+                              - /url: https://github.com/collections
+              - listitem [ref=e284]:
+                - generic [ref=e285]:
+                  - button "Enterprise" [ref=e286]:
+                    - text: Enterprise
+                    - img [ref=e287]
+                  - list [ref=e290]:
+                    - listitem [ref=e291]:
+                      - generic [ref=e292]:
+                        - text: ENTERPRISE SOLUTIONS
+                        - list [ref=e293]:
+                          - listitem [ref=e294]:
+                            - link "Enterprise platformAI-powered developer platform" [ref=e295] [cursor=pointer]:
+                              - /url: https://github.com/enterprise
+                              - generic [ref=e296]:
+                                - img [ref=e297]
+                                - text: Enterprise platformAI-powered developer platform
+                    - listitem [ref=e301]:
+                      - generic [ref=e302]:
+                        - text: AVAILABLE ADD-ONS
+                        - list [ref=e303]:
+                          - listitem [ref=e304]:
+                            - link "GitHub Advanced SecurityEnterprise-grade security features" [ref=e305] [cursor=pointer]:
+                              - /url: https://github.com/security/advanced-security
+                              - generic [ref=e306]:
+                                - img [ref=e307]
+                                - text: GitHub Advanced SecurityEnterprise-grade security features
+                          - listitem [ref=e310]:
+                            - link "Copilot for BusinessEnterprise-grade AI features" [ref=e311] [cursor=pointer]:
+                              - /url: https://github.com/features/copilot/copilot-business
+                              - generic [ref=e312]:
+                                - img [ref=e313]
+                                - text: Copilot for BusinessEnterprise-grade AI features
+                          - listitem [ref=e316]:
+                            - link "Premium SupportEnterprise-grade 24/7 support" [ref=e317] [cursor=pointer]:
+                              - /url: https://github.com/premium-support
+                              - generic [ref=e318]:
+                                - img [ref=e319]
+                                - text: Premium SupportEnterprise-grade 24/7 support
+              - listitem [ref=e322]:
+                - link "Pricing" [ref=e323] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e324]:
+            - generic [ref=e326]:
+              - button "Search or jump to…" [ref=e327]:
+                - img [ref=e329]
+                - text: Search or jump to...
+                - img [ref=e332]
+              - dialog "Search code, repositories, users, issues, pull requests..." [ref=e336]:
+                - heading "Search code, repositories, users, issues, pull requests..." [level=1] [ref=e337]
+            - link "Sign in" [ref=e339] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fd-kimuson%2Fd-kimuson
+            - link "Sign up" [ref=e340] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=d-kimuson%2Fd-kimuson
+            - button "Appearance settings" [disabled] [ref=e343]:
+              - img [ref=e344]
+            - button "Resetting focus" [ref=e346]
+  - main [ref=e349]:
+    - generic [ref=e350]:
+      - generic [ref=e351]:
+        - generic [ref=e353]:
+          - img [ref=e354]
+          - link "d-kimuson" [ref=e357] [cursor=pointer]:
+            - /url: /d-kimuson
+          - text: /
+          - strong [ref=e358]:
+            - link "d-kimuson" [ref=e359] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson
+          - text: Public
+        - list [ref=e361]:
+          - listitem [ref=e362]:
+            - link "You must be signed in to change notification settings" [ref=e363] [cursor=pointer]:
+              - /url: /login?return_to=%2Fd-kimuson%2Fd-kimuson
+              - img [ref=e364]
+              - text: Notifications
+          - listitem [ref=e366]:
+            - link "Fork 0" [ref=e367] [cursor=pointer]:
+              - /url: /login?return_to=%2Fd-kimuson%2Fd-kimuson
+              - img [ref=e368]
+              - text: Fork 0
+          - listitem [ref=e370]:
+            - link "You must be signed in to star a repository" [ref=e372] [cursor=pointer]:
+              - /url: /login?return_to=%2Fd-kimuson%2Fd-kimuson
+              - img [ref=e373]
+              - text: Star 0
+      - navigation "Repository" [ref=e375]:
+        - list [ref=e376]:
+          - listitem [ref=e377]:
+            - link "Code Not available" [ref=e378] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson
+              - img [ref=e379]
+              - text: Code
+              - generic "Not available"
+          - listitem [ref=e381]:
+            - link "Issues" [ref=e382] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson/issues
+              - img [ref=e383]
+              - text: Issues
+          - listitem [ref=e386]:
+            - link "Pull requests" [ref=e387] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson/pulls
+              - img [ref=e388]
+              - text: Pull requests
+          - listitem [ref=e390]:
+            - link "Actions Not available" [ref=e391] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson/actions
+              - img [ref=e392]
+              - text: Actions
+              - generic "Not available"
+          - listitem [ref=e394]:
+            - link "Projects Not available" [ref=e395] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson/projects
+              - img [ref=e396]
+              - text: Projects
+              - generic "Not available"
+          - listitem [ref=e398]:
+            - link "Security" [ref=e399] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson/security
+              - img [ref=e400]
+              - text: Security
+          - listitem [ref=e402]:
+            - link "Insights Not available" [ref=e403] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson/pulse
+              - img [ref=e404]
+              - text: Insights
+              - generic "Not available"
+    - generic [ref=e418]:
+      - heading "d-kimuson/d-kimuson" [level=1] [ref=e422]
+      - generic [ref=e423]:
+        - generic [ref=e426]:
+          - generic [ref=e427]:
+            - generic [ref=e428]:
+              - button "main branch" [ref=e430]:
+                - generic [ref=e431]:
+                  - generic [ref=e433]:
+                    - img [ref=e435]
+                    - generic [ref=e438]: main
+                  - img [ref=e440]
+              - generic [ref=e442]:
+                - link "Branches" [ref=e443] [cursor=pointer]:
+                  - /url: /d-kimuson/d-kimuson/branches
+                  - generic [ref=e444]:
+                    - img [ref=e446]
+                    - text: Branches
+                - link "Tags" [ref=e448] [cursor=pointer]:
+                  - /url: /d-kimuson/d-kimuson/tags
+                  - generic [ref=e449]:
+                    - img [ref=e451]
+                    - text: Tags
+              - generic [ref=e453]:
+                - link "Go to Branches page" [ref=e454] [cursor=pointer]:
+                  - /url: /d-kimuson/d-kimuson/branches
+                  - img [ref=e455]
+                - link "Go to Tags page" [ref=e457] [cursor=pointer]:
+                  - /url: /d-kimuson/d-kimuson/tags
+                  - img [ref=e458]
+            - generic [ref=e460]:
+              - button "Go to file" [ref=e463]:
+                - generic [ref=e464]: Go to file
+              - button "Code" [ref=e465]:
+                - generic [ref=e466]:
+                  - img [ref=e468]
+                  - text: Code
+                  - img [ref=e471]
+              - generic [ref=e473]:
+                - button "Open more actions menu" [ref=e474]:
+                  - img [ref=e475]
+                - text: Open more actions menu
+          - generic [ref=e477]:
+            - generic [ref=e478]:
+              - heading "Folders and files" [level=2] [ref=e479]
+              - table "Folders and files" [ref=e480]:
+                - rowgroup [ref=e481]:
+                  - row "Name Name Last commit message Last commit date" [ref=e482]:
+                    - columnheader "Name" [ref=e483]
+                    - columnheader "Name" [ref=e484]
+                    - columnheader "Last commit message" [ref=e485]:
+                      - generic "Last commit message" [ref=e486]
+                    - columnheader "Last commit date" [ref=e487]:
+                      - generic "Last commit date" [ref=e488]
+                - rowgroup [ref=e489]:
+                  - row "Latest commit History 3 Commits View commit history for this file." [ref=e490]:
+                    - cell "Latest commit History 3 Commits View commit history for this file." [ref=e491]:
+                      - generic [ref=e492]:
+                        - heading "Latest commit" [level=2] [ref=e493]
+                        - generic [ref=e496]:
+                          - heading "History" [level=2] [ref=e497]
+                          - link "3 Commits" [ref=e498] [cursor=pointer]:
+                            - /url: /d-kimuson/d-kimuson/commits/main/
+                            - generic [ref=e499]:
+                              - img [ref=e501]
+                              - generic [ref=e503]: 3 Commits
+                          - generic [ref=e504]:
+                            - link "View commit history for this file." [ref=e505] [cursor=pointer]:
+                              - /url: /d-kimuson/d-kimuson/commits/main/
+                              - img [ref=e508]
+                            - tooltip [ref=e510]: 3 Commits
+                  - row "README.md, (File) README.md, (File)" [ref=e511]:
+                    - cell "README.md, (File)" [ref=e512]:
+                      - generic [ref=e513]:
+                        - img [ref=e514]
+                        - link "README.md, (File)" [ref=e519] [cursor=pointer]:
+                          - /url: /d-kimuson/d-kimuson/blob/main/README.md
+                          - text: README.md
+                    - cell "README.md, (File)" [ref=e520]:
+                      - generic [ref=e521]:
+                        - img [ref=e522]
+                        - link "README.md, (File)" [ref=e527] [cursor=pointer]:
+                          - /url: /d-kimuson/d-kimuson/blob/main/README.md
+                          - text: README.md
+                    - cell [ref=e528]
+                    - cell [ref=e530]
+                  - row "View all files" [ref=e533]:
+                    - cell "View all files" [ref=e534]:
+                      - button "View all files" [ref=e536]
+            - generic [ref=e538]:
+              - generic [ref=e539]:
+                - heading "Repository files navigation" [level=2] [ref=e540]
+                - navigation "Repository files" [ref=e541]:
+                  - list [ref=e542]:
+                    - listitem [ref=e543]:
+                      - link "README" [ref=e544] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e546]
+                        - text: README
+                - button "Outline" [ref=e548]:
+                  - img [ref=e549]
+              - article [ref=e552]:
+                - generic [ref=e553]:
+                  - heading "Hi there 👋" [level=3] [ref=e554]
+                  - 'link "Permalink: Hi there 👋" [ref=e555] [cursor=pointer]':
+                    - /url: "#hi-there-"
+                    - img [ref=e556]
+                - generic [ref=e558]:
+                  - heading "Profile" [level=2] [ref=e559]
+                  - 'link "Permalink: Profile" [ref=e560] [cursor=pointer]':
+                    - /url: "#profile"
+                    - img [ref=e561]
+                - paragraph [ref=e563]:
+                  - link "d-kimuson's GitHub stats" [ref=e564] [cursor=pointer]:
+                    - /url: https://camo.githubusercontent.com/74a6c271ca4ae4c33a4c9ace306bb1653846c0f267d7fdd88750aa6f97174885/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d642d6b696d75736f6e26636f756e745f707269766174653d747275652673686f775f69636f6e733d74727565267468656d653d746f6b796f6e69676874
+                    - img "d-kimuson's GitHub stats" [ref=e565]
+                - generic [ref=e566]:
+                  - heading "🔗 Links" [level=2] [ref=e567]
+                  - 'link "Permalink: :link: Links" [ref=e568] [cursor=pointer]':
+                    - /url: "#link-links"
+                    - img [ref=e569]
+                - list [ref=e571]:
+                  - listitem [ref=e572]:
+                    - link "📘 Blog" [ref=e573] [cursor=pointer]:
+                      - /url: https://kimuson.dev
+                  - listitem [ref=e574]:
+                    - link "🐦 Twitter" [ref=e575] [cursor=pointer]:
+                      - /url: https://twitter.com/_kimuson
+                - generic [ref=e576]:
+                  - heading "🔥 Skills" [level=2] [ref=e577]
+                  - 'link "Permalink: :fire: Skills" [ref=e578] [cursor=pointer]':
+                    - /url: "#fire-skills"
+                    - img [ref=e579]
+                - paragraph [ref=e581]:
+                  - link "Top Langs" [ref=e582] [cursor=pointer]:
+                    - /url: https://github.com/anuraghazra/github-readme-stats
+                    - img "Top Langs" [ref=e583]
+        - generic [ref=e587]:
+          - generic [ref=e590]:
+            - heading "About" [level=2] [ref=e591]
+            - paragraph [ref=e592]: Hi
+            - heading "Resources" [level=3] [ref=e593]
+            - link "Readme" [ref=e595] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e596]
+              - text: Readme
+            - link "Activity" [ref=e599] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson/activity
+              - img [ref=e600]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e602]
+            - link "0 stars" [ref=e604] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson/stargazers
+              - img [ref=e605]
+              - strong [ref=e607]: "0"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e608]
+            - link "1 watching" [ref=e610] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson/watchers
+              - img [ref=e611]
+              - strong [ref=e613]: "1"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e614]
+            - link "0 forks" [ref=e616] [cursor=pointer]:
+              - /url: /d-kimuson/d-kimuson/forks
+              - img [ref=e617]
+              - strong [ref=e619]: "0"
+              - text: forks
+            - link "Report repository" [ref=e621] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fd-kimuson%2Fd-kimuson&report=d-kimuson+%28user%29
+          - generic [ref=e623]:
+            - heading "Releases" [level=2] [ref=e624]:
+              - link "Releases" [ref=e625] [cursor=pointer]:
+                - /url: /d-kimuson/d-kimuson/releases
+            - generic [ref=e626]: No releases published
+          - generic "Loading latest packages" [ref=e629]:
+            - heading "Packages" [level=2] [ref=e630]:
+              - link "Packages" [ref=e631] [cursor=pointer]:
+                - /url: /users/d-kimuson/packages?repo_name=d-kimuson
+          - generic "Loading contributors" [ref=e643]:
+            - heading "Contributors" [level=2] [ref=e644]:
+              - link "Contributors" [ref=e645] [cursor=pointer]:
+                - /url: /d-kimuson/d-kimuson/graphs/contributors
+            - list [ref=e646]:
+              - listitem [ref=e647]
+              - listitem [ref=e649]
+              - listitem [ref=e651]
+  - contentinfo [ref=e653]:
+    - heading "Footer" [level=2] [ref=e654]
+    - generic [ref=e655]:
+      - generic [ref=e656]:
+        - link "GitHub Homepage" [ref=e657] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e658]
+        - text: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e660]:
+        - heading "Footer navigation" [level=3] [ref=e661]
+        - list "Footer navigation" [ref=e662]:
+          - listitem [ref=e663]:
+            - link "Terms" [ref=e664] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e665]:
+            - link "Privacy" [ref=e666] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e667]:
+            - link "Security" [ref=e668] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e669]:
+            - link "Status" [ref=e670] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e671]:
+            - link "Community" [ref=e672] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e673]:
+            - link "Docs" [ref=e674] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e675]:
+            - link "Contact" [ref=e676] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e677]:
+            - button "Manage cookies" [ref=e679]
+          - listitem [ref=e680]:
+            - button "Do not share my personal information" [ref=e682]

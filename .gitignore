@@ -1,0 +1,2 @@
+# Playwright CLI config (contains proxy credentials)
+.playwright/cli.config.json

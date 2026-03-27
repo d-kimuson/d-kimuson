@@ -1,0 +1,1094 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e5]:
+      - heading "Navigation Menu" [level=2] [ref=e6]
+      - button "Toggle navigation" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle navigation" [ref=e11]
+          - link "Homepage" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img [ref=e13]
+          - generic [ref=e15]:
+            - link "Sign in" [ref=e16] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fanthropics%2Fclaude-code
+            - button "Appearance settings" [disabled] [ref=e19]:
+              - img [ref=e20]
+        - generic [ref=e23]:
+          - navigation "Global" [ref=e26]:
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - generic [ref=e29]:
+                  - button "Platform" [ref=e30]:
+                    - text: Platform
+                    - img [ref=e31]
+                  - generic [ref=e33]:
+                    - list [ref=e34]:
+                      - listitem [ref=e35]:
+                        - generic [ref=e36]:
+                          - text: AI CODE CREATION
+                          - list [ref=e37]:
+                            - listitem [ref=e38]:
+                              - link "GitHub CopilotWrite better code with AI" [ref=e39] [cursor=pointer]:
+                                - /url: https://github.com/features/copilot
+                                - generic [ref=e40]:
+                                  - img [ref=e41]
+                                  - text: GitHub CopilotWrite better code with AI
+                            - listitem [ref=e44]:
+                              - link "GitHub SparkBuild and deploy intelligent apps" [ref=e45] [cursor=pointer]:
+                                - /url: https://github.com/features/spark
+                                - generic [ref=e46]:
+                                  - img [ref=e47]
+                                  - text: GitHub SparkBuild and deploy intelligent apps
+                            - listitem [ref=e49]:
+                              - link "GitHub ModelsManage and compare prompts" [ref=e50] [cursor=pointer]:
+                                - /url: https://github.com/features/models
+                                - generic [ref=e51]:
+                                  - img [ref=e52]
+                                  - text: GitHub ModelsManage and compare prompts
+                            - listitem [ref=e54]:
+                              - link "MCP RegistryNewIntegrate external tools" [ref=e55] [cursor=pointer]:
+                                - /url: https://github.com/mcp
+                                - generic [ref=e56]:
+                                  - img [ref=e57]
+                                  - generic [ref=e60]:
+                                    - text: MCP Registry
+                                    - superscript [ref=e61]: New
+                                  - text: Integrate external tools
+                      - listitem [ref=e62]:
+                        - generic [ref=e63]:
+                          - text: DEVELOPER WORKFLOWS
+                          - list [ref=e64]:
+                            - listitem [ref=e65]:
+                              - link "ActionsAutomate any workflow" [ref=e66] [cursor=pointer]:
+                                - /url: https://github.com/features/actions
+                                - generic [ref=e67]:
+                                  - img [ref=e68]
+                                  - text: ActionsAutomate any workflow
+                            - listitem [ref=e70]:
+                              - link "CodespacesInstant dev environments" [ref=e71] [cursor=pointer]:
+                                - /url: https://github.com/features/codespaces
+                                - generic [ref=e72]:
+                                  - img [ref=e73]
+                                  - text: CodespacesInstant dev environments
+                            - listitem [ref=e76]:
+                              - link "IssuesPlan and track work" [ref=e77] [cursor=pointer]:
+                                - /url: https://github.com/features/issues
+                                - generic [ref=e78]:
+                                  - img [ref=e79]
+                                  - text: IssuesPlan and track work
+                            - listitem [ref=e81]:
+                              - link "Code ReviewManage code changes" [ref=e82] [cursor=pointer]:
+                                - /url: https://github.com/features/code-review
+                                - generic [ref=e83]:
+                                  - img [ref=e84]
+                                  - text: Code ReviewManage code changes
+                      - listitem [ref=e86]:
+                        - generic [ref=e87]:
+                          - text: APPLICATION SECURITY
+                          - list [ref=e88]:
+                            - listitem [ref=e89]:
+                              - link "GitHub Advanced SecurityFind and fix vulnerabilities" [ref=e90] [cursor=pointer]:
+                                - /url: https://github.com/security/advanced-security
+                                - generic [ref=e91]:
+                                  - img [ref=e92]
+                                  - text: GitHub Advanced SecurityFind and fix vulnerabilities
+                            - listitem [ref=e95]:
+                              - link "Code securitySecure your code as you build" [ref=e96] [cursor=pointer]:
+                                - /url: https://github.com/security/advanced-security/code-security
+                                - generic [ref=e97]:
+                                  - img [ref=e98]
+                                  - text: Code securitySecure your code as you build
+                            - listitem [ref=e101]:
+                              - link "Secret protectionStop leaks before they start" [ref=e102] [cursor=pointer]:
+                                - /url: https://github.com/security/advanced-security/secret-protection
+                                - generic [ref=e103]:
+                                  - img [ref=e104]
+                                  - text: Secret protectionStop leaks before they start
+                      - listitem [ref=e106]:
+                        - generic [ref=e107]:
+                          - text: EXPLORE
+                          - list [ref=e108]:
+                            - listitem [ref=e109]:
+                              - link "Why GitHub" [ref=e110] [cursor=pointer]:
+                                - /url: https://github.com/why-github
+                            - listitem [ref=e111]:
+                              - link "Documentation" [ref=e112] [cursor=pointer]:
+                                - /url: https://docs.github.com
+                                - text: Documentation
+                                - img [ref=e113]
+                            - listitem [ref=e115]:
+                              - link "Blog" [ref=e116] [cursor=pointer]:
+                                - /url: https://github.blog
+                                - text: Blog
+                                - img [ref=e117]
+                            - listitem [ref=e119]:
+                              - link "Changelog" [ref=e120] [cursor=pointer]:
+                                - /url: https://github.blog/changelog
+                                - text: Changelog
+                                - img [ref=e121]
+                            - listitem [ref=e123]:
+                              - link "Marketplace" [ref=e124] [cursor=pointer]:
+                                - /url: https://github.com/marketplace
+                    - link "View all features" [ref=e126] [cursor=pointer]:
+                      - /url: https://github.com/features
+                      - text: View all features
+                      - img [ref=e127]
+              - listitem [ref=e129]:
+                - generic [ref=e130]:
+                  - button "Solutions" [ref=e131]:
+                    - text: Solutions
+                    - img [ref=e132]
+                  - generic [ref=e134]:
+                    - list [ref=e135]:
+                      - listitem [ref=e136]:
+                        - generic [ref=e137]:
+                          - text: BY COMPANY SIZE
+                          - list [ref=e138]:
+                            - listitem [ref=e139]:
+                              - link "Enterprises" [ref=e140] [cursor=pointer]:
+                                - /url: https://github.com/enterprise
+                            - listitem [ref=e141]:
+                              - link "Small and medium teams" [ref=e142] [cursor=pointer]:
+                                - /url: https://github.com/team
+                            - listitem [ref=e143]:
+                              - link "Startups" [ref=e144] [cursor=pointer]:
+                                - /url: https://github.com/enterprise/startups
+                            - listitem [ref=e145]:
+                              - link "Nonprofits" [ref=e146] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/nonprofits
+                      - listitem [ref=e147]:
+                        - generic [ref=e148]:
+                          - text: BY USE CASE
+                          - list [ref=e149]:
+                            - listitem [ref=e150]:
+                              - link "App Modernization" [ref=e151] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/app-modernization
+                            - listitem [ref=e152]:
+                              - link "DevSecOps" [ref=e153] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/devsecops
+                            - listitem [ref=e154]:
+                              - link "DevOps" [ref=e155] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/devops
+                            - listitem [ref=e156]:
+                              - link "CI/CD" [ref=e157] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/ci-cd
+                            - listitem [ref=e158]:
+                              - link "View all use cases" [ref=e159] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case
+                                - text: View all use cases
+                                - img [ref=e160]
+                      - listitem [ref=e162]:
+                        - generic [ref=e163]:
+                          - text: BY INDUSTRY
+                          - list [ref=e164]:
+                            - listitem [ref=e165]:
+                              - link "Healthcare" [ref=e166] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/healthcare
+                            - listitem [ref=e167]:
+                              - link "Financial services" [ref=e168] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/financial-services
+                            - listitem [ref=e169]:
+                              - link "Manufacturing" [ref=e170] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/manufacturing
+                            - listitem [ref=e171]:
+                              - link "Government" [ref=e172] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/government
+                            - listitem [ref=e173]:
+                              - link "View all industries" [ref=e174] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry
+                                - text: View all industries
+                                - img [ref=e175]
+                    - link "View all solutions" [ref=e178] [cursor=pointer]:
+                      - /url: https://github.com/solutions
+                      - text: View all solutions
+                      - img [ref=e179]
+              - listitem [ref=e181]:
+                - generic [ref=e182]:
+                  - button "Resources" [ref=e183]:
+                    - text: Resources
+                    - img [ref=e184]
+                  - generic [ref=e186]:
+                    - list [ref=e187]:
+                      - listitem [ref=e188]:
+                        - generic [ref=e189]:
+                          - text: EXPLORE BY TOPIC
+                          - list [ref=e190]:
+                            - listitem [ref=e191]:
+                              - link "AI" [ref=e192] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=ai
+                            - listitem [ref=e193]:
+                              - link "Software Development" [ref=e194] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=software-development
+                            - listitem [ref=e195]:
+                              - link "DevOps" [ref=e196] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=devops
+                            - listitem [ref=e197]:
+                              - link "Security" [ref=e198] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=security
+                            - listitem [ref=e199]:
+                              - link "View all topics" [ref=e200] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles
+                                - text: View all topics
+                                - img [ref=e201]
+                      - listitem [ref=e203]:
+                        - generic [ref=e204]:
+                          - text: EXPLORE BY TYPE
+                          - list [ref=e205]:
+                            - listitem [ref=e206]:
+                              - link "Customer stories" [ref=e207] [cursor=pointer]:
+                                - /url: https://github.com/customer-stories
+                            - listitem [ref=e208]:
+                              - link "Events & webinars" [ref=e209] [cursor=pointer]:
+                                - /url: https://github.com/resources/events
+                            - listitem [ref=e210]:
+                              - link "Ebooks & reports" [ref=e211] [cursor=pointer]:
+                                - /url: https://github.com/resources/whitepapers
+                            - listitem [ref=e212]:
+                              - link "Business insights" [ref=e213] [cursor=pointer]:
+                                - /url: https://github.com/solutions/executive-insights
+                            - listitem [ref=e214]:
+                              - link "GitHub Skills" [ref=e215] [cursor=pointer]:
+                                - /url: https://skills.github.com
+                                - text: GitHub Skills
+                                - img [ref=e216]
+                      - listitem [ref=e218]:
+                        - generic [ref=e219]:
+                          - text: SUPPORT & SERVICES
+                          - list [ref=e220]:
+                            - listitem [ref=e221]:
+                              - link "Documentation" [ref=e222] [cursor=pointer]:
+                                - /url: https://docs.github.com
+                                - text: Documentation
+                                - img [ref=e223]
+                            - listitem [ref=e225]:
+                              - link "Customer support" [ref=e226] [cursor=pointer]:
+                                - /url: https://support.github.com
+                                - text: Customer support
+                                - img [ref=e227]
+                            - listitem [ref=e229]:
+                              - link "Community forum" [ref=e230] [cursor=pointer]:
+                                - /url: https://github.com/orgs/community/discussions
+                            - listitem [ref=e231]:
+                              - link "Trust center" [ref=e232] [cursor=pointer]:
+                                - /url: https://github.com/trust-center
+                            - listitem [ref=e233]:
+                              - link "Partners" [ref=e234] [cursor=pointer]:
+                                - /url: https://github.com/partners
+                    - link "View all resources" [ref=e236] [cursor=pointer]:
+                      - /url: https://github.com/resources
+                      - text: View all resources
+                      - img [ref=e237]
+              - listitem [ref=e239]:
+                - generic [ref=e240]:
+                  - button "Open Source" [ref=e241]:
+                    - text: Open Source
+                    - img [ref=e242]
+                  - list [ref=e245]:
+                    - listitem [ref=e246]:
+                      - generic [ref=e247]:
+                        - text: COMMUNITY
+                        - list [ref=e248]:
+                          - listitem [ref=e249]:
+                            - link "GitHub SponsorsFund open source developers" [ref=e250] [cursor=pointer]:
+                              - /url: https://github.com/sponsors
+                              - generic [ref=e251]:
+                                - img [ref=e252]
+                                - text: GitHub SponsorsFund open source developers
+                    - listitem [ref=e254]:
+                      - generic [ref=e255]:
+                        - text: PROGRAMS
+                        - list [ref=e256]:
+                          - listitem [ref=e257]:
+                            - link "Security Lab" [ref=e258] [cursor=pointer]:
+                              - /url: https://securitylab.github.com
+                              - text: Security Lab
+                              - img [ref=e259]
+                          - listitem [ref=e261]:
+                            - link "Maintainer Community" [ref=e262] [cursor=pointer]:
+                              - /url: https://maintainers.github.com
+                              - text: Maintainer Community
+                              - img [ref=e263]
+                          - listitem [ref=e265]:
+                            - link "Accelerator" [ref=e266] [cursor=pointer]:
+                              - /url: https://github.com/accelerator
+                          - listitem [ref=e267]:
+                            - link "GitHub Stars" [ref=e268] [cursor=pointer]:
+                              - /url: https://stars.github.com
+                              - text: GitHub Stars
+                              - img [ref=e269]
+                          - listitem [ref=e271]:
+                            - link "Archive Program" [ref=e272] [cursor=pointer]:
+                              - /url: https://archiveprogram.github.com
+                              - text: Archive Program
+                              - img [ref=e273]
+                    - listitem [ref=e275]:
+                      - generic [ref=e276]:
+                        - text: REPOSITORIES
+                        - list [ref=e277]:
+                          - listitem [ref=e278]:
+                            - link "Topics" [ref=e279] [cursor=pointer]:
+                              - /url: https://github.com/topics
+                          - listitem [ref=e280]:
+                            - link "Trending" [ref=e281] [cursor=pointer]:
+                              - /url: https://github.com/trending
+                          - listitem [ref=e282]:
+                            - link "Collections" [ref=e283] [cursor=pointer]:
+                              - /url: https://github.com/collections
+              - listitem [ref=e284]:
+                - generic [ref=e285]:
+                  - button "Enterprise" [ref=e286]:
+                    - text: Enterprise
+                    - img [ref=e287]
+                  - list [ref=e290]:
+                    - listitem [ref=e291]:
+                      - generic [ref=e292]:
+                        - text: ENTERPRISE SOLUTIONS
+                        - list [ref=e293]:
+                          - listitem [ref=e294]:
+                            - link "Enterprise platformAI-powered developer platform" [ref=e295] [cursor=pointer]:
+                              - /url: https://github.com/enterprise
+                              - generic [ref=e296]:
+                                - img [ref=e297]
+                                - text: Enterprise platformAI-powered developer platform
+                    - listitem [ref=e301]:
+                      - generic [ref=e302]:
+                        - text: AVAILABLE ADD-ONS
+                        - list [ref=e303]:
+                          - listitem [ref=e304]:
+                            - link "GitHub Advanced SecurityEnterprise-grade security features" [ref=e305] [cursor=pointer]:
+                              - /url: https://github.com/security/advanced-security
+                              - generic [ref=e306]:
+                                - img [ref=e307]
+                                - text: GitHub Advanced SecurityEnterprise-grade security features
+                          - listitem [ref=e310]:
+                            - link "Copilot for BusinessEnterprise-grade AI features" [ref=e311] [cursor=pointer]:
+                              - /url: https://github.com/features/copilot/copilot-business
+                              - generic [ref=e312]:
+                                - img [ref=e313]
+                                - text: Copilot for BusinessEnterprise-grade AI features
+                          - listitem [ref=e316]:
+                            - link "Premium SupportEnterprise-grade 24/7 support" [ref=e317] [cursor=pointer]:
+                              - /url: https://github.com/premium-support
+                              - generic [ref=e318]:
+                                - img [ref=e319]
+                                - text: Premium SupportEnterprise-grade 24/7 support
+              - listitem [ref=e322]:
+                - link "Pricing" [ref=e323] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e324]:
+            - generic [ref=e326]:
+              - button "Search or jump to…" [ref=e327]:
+                - img [ref=e329]
+                - text: Search or jump to...
+                - img [ref=e332]
+              - dialog "Search code, repositories, users, issues, pull requests..." [ref=e336]:
+                - heading "Search code, repositories, users, issues, pull requests..." [level=1] [ref=e337]
+            - link "Sign in" [ref=e339] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fanthropics%2Fclaude-code
+            - link "Sign up" [ref=e340] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=anthropics%2Fclaude-code
+            - button "Appearance settings" [disabled] [ref=e343]:
+              - img [ref=e344]
+            - button "Resetting focus" [ref=e346]
+  - main [ref=e349]:
+    - generic [ref=e350]:
+      - generic [ref=e351]:
+        - generic [ref=e353]:
+          - img [ref=e354]
+          - link "anthropics" [ref=e357] [cursor=pointer]:
+            - /url: /anthropics
+          - text: /
+          - strong [ref=e358]:
+            - link "claude-code" [ref=e359] [cursor=pointer]:
+              - /url: /anthropics/claude-code
+          - text: Public
+        - list [ref=e361]:
+          - listitem [ref=e362]:
+            - link "You must be signed in to change notification settings" [ref=e363] [cursor=pointer]:
+              - /url: /login?return_to=%2Fanthropics%2Fclaude-code
+              - img [ref=e364]
+              - text: Notifications
+          - listitem [ref=e366]:
+            - link "Fork 7k" [ref=e367] [cursor=pointer]:
+              - /url: /login?return_to=%2Fanthropics%2Fclaude-code
+              - img [ref=e368]
+              - text: Fork 7k
+          - listitem [ref=e370]:
+            - link "You must be signed in to star a repository" [ref=e372] [cursor=pointer]:
+              - /url: /login?return_to=%2Fanthropics%2Fclaude-code
+              - img [ref=e373]
+              - text: Star 83.3k
+      - navigation "Repository" [ref=e375]:
+        - list [ref=e376]:
+          - listitem [ref=e377]:
+            - link "Code Not available" [ref=e378] [cursor=pointer]:
+              - /url: /anthropics/claude-code
+              - img [ref=e379]
+              - text: Code
+              - generic "Not available"
+          - listitem [ref=e381]:
+            - link "Issues 5k+" [ref=e382] [cursor=pointer]:
+              - /url: /anthropics/claude-code/issues
+              - img [ref=e383]
+              - text: Issues 5k+
+          - listitem [ref=e386]:
+            - link "Pull requests 397" [ref=e387] [cursor=pointer]:
+              - /url: /anthropics/claude-code/pulls
+              - img [ref=e388]
+              - text: Pull requests 397
+          - listitem [ref=e390]:
+            - link "Actions Not available" [ref=e391] [cursor=pointer]:
+              - /url: /anthropics/claude-code/actions
+              - img [ref=e392]
+              - text: Actions
+              - generic "Not available"
+          - listitem [ref=e394]:
+            - link "Security 22" [ref=e395] [cursor=pointer]:
+              - /url: /anthropics/claude-code/security
+              - img [ref=e396]
+              - text: Security 22
+          - listitem [ref=e398]:
+            - link "Insights Not available" [ref=e399] [cursor=pointer]:
+              - /url: /anthropics/claude-code/pulse
+              - img [ref=e400]
+              - text: Insights
+              - generic "Not available"
+    - generic [ref=e414]:
+      - heading "anthropics/claude-code" [level=1] [ref=e418]
+      - generic [ref=e419]:
+        - generic [ref=e422]:
+          - generic [ref=e423]:
+            - generic [ref=e424]:
+              - button "main branch" [ref=e426]:
+                - generic [ref=e427]:
+                  - generic [ref=e429]:
+                    - img [ref=e431]
+                    - generic [ref=e434]: main
+                  - img [ref=e436]
+              - generic [ref=e438]:
+                - link "Branches" [ref=e439] [cursor=pointer]:
+                  - /url: /anthropics/claude-code/branches
+                  - generic [ref=e440]:
+                    - img [ref=e442]
+                    - text: Branches
+                - link "Tags" [ref=e444] [cursor=pointer]:
+                  - /url: /anthropics/claude-code/tags
+                  - generic [ref=e445]:
+                    - img [ref=e447]
+                    - text: Tags
+              - generic [ref=e449]:
+                - link "Go to Branches page" [ref=e450] [cursor=pointer]:
+                  - /url: /anthropics/claude-code/branches
+                  - img [ref=e451]
+                - link "Go to Tags page" [ref=e453] [cursor=pointer]:
+                  - /url: /anthropics/claude-code/tags
+                  - img [ref=e454]
+            - generic [ref=e456]:
+              - button "Go to file" [ref=e459]:
+                - generic [ref=e460]: Go to file
+              - button "Code" [ref=e461]:
+                - generic [ref=e462]:
+                  - img [ref=e464]
+                  - text: Code
+                  - img [ref=e467]
+              - generic [ref=e469]:
+                - button "Open more actions menu" [ref=e470]:
+                  - img [ref=e471]
+                - text: Open more actions menu
+          - generic [ref=e473]:
+            - generic [ref=e474]:
+              - heading "Folders and files" [level=2] [ref=e475]
+              - table "Folders and files" [ref=e476]:
+                - rowgroup [ref=e477]:
+                  - row "Name Name Last commit message Last commit date" [ref=e478]:
+                    - columnheader "Name" [ref=e479]
+                    - columnheader "Name" [ref=e480]
+                    - columnheader "Last commit message" [ref=e481]:
+                      - generic "Last commit message" [ref=e482]
+                    - columnheader "Last commit date" [ref=e483]:
+                      - generic "Last commit date" [ref=e484]
+                - rowgroup [ref=e485]:
+                  - row "Latest commit History 567 Commits View commit history for this file." [ref=e486]:
+                    - cell "Latest commit History 567 Commits View commit history for this file." [ref=e487]:
+                      - generic [ref=e488]:
+                        - heading "Latest commit" [level=2] [ref=e489]
+                        - generic [ref=e492]:
+                          - heading "History" [level=2] [ref=e493]
+                          - link "567 Commits" [ref=e494] [cursor=pointer]:
+                            - /url: /anthropics/claude-code/commits/main/
+                            - generic [ref=e495]:
+                              - img [ref=e497]
+                              - generic [ref=e499]: 567 Commits
+                          - generic [ref=e500]:
+                            - link "View commit history for this file." [ref=e501] [cursor=pointer]:
+                              - /url: /anthropics/claude-code/commits/main/
+                              - img [ref=e504]
+                            - tooltip [ref=e506]: 567 Commits
+                  - row ".claude-plugin, (Directory) .claude-plugin, (Directory)" [ref=e507]:
+                    - cell ".claude-plugin, (Directory)" [ref=e508]:
+                      - generic [ref=e509]:
+                        - img [ref=e510]
+                        - link ".claude-plugin, (Directory)" [ref=e515] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/.claude-plugin
+                          - text: .claude-plugin
+                    - cell ".claude-plugin, (Directory)" [ref=e516]:
+                      - generic [ref=e517]:
+                        - img [ref=e518]
+                        - link ".claude-plugin, (Directory)" [ref=e523] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/.claude-plugin
+                          - text: .claude-plugin
+                    - cell [ref=e524]
+                    - cell [ref=e526]
+                  - row ".claude/commands, (Directory) .claude/commands, (Directory)" [ref=e529]:
+                    - cell ".claude/commands, (Directory)" [ref=e530]:
+                      - generic [ref=e531]:
+                        - img [ref=e532]
+                        - link ".claude/commands, (Directory)" [ref=e537] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/.claude/commands
+                          - text: .claude/commands
+                    - cell ".claude/commands, (Directory)" [ref=e538]:
+                      - generic [ref=e539]:
+                        - img [ref=e540]
+                        - link ".claude/commands, (Directory)" [ref=e545] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/.claude/commands
+                          - text: .claude/commands
+                    - cell [ref=e546]
+                    - cell [ref=e548]
+                  - row ".devcontainer, (Directory) .devcontainer, (Directory)" [ref=e551]:
+                    - cell ".devcontainer, (Directory)" [ref=e552]:
+                      - generic [ref=e553]:
+                        - img [ref=e554]
+                        - link ".devcontainer, (Directory)" [ref=e559] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/.devcontainer
+                          - text: .devcontainer
+                    - cell ".devcontainer, (Directory)" [ref=e560]:
+                      - generic [ref=e561]:
+                        - img [ref=e562]
+                        - link ".devcontainer, (Directory)" [ref=e567] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/.devcontainer
+                          - text: .devcontainer
+                    - cell [ref=e568]
+                    - cell [ref=e570]
+                  - row ".github, (Directory) .github, (Directory)" [ref=e573]:
+                    - cell ".github, (Directory)" [ref=e574]:
+                      - generic [ref=e575]:
+                        - img [ref=e576]
+                        - link ".github, (Directory)" [ref=e581] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/.github
+                          - text: .github
+                    - cell ".github, (Directory)" [ref=e582]:
+                      - generic [ref=e583]:
+                        - img [ref=e584]
+                        - link ".github, (Directory)" [ref=e589] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/.github
+                          - text: .github
+                    - cell [ref=e590]
+                    - cell [ref=e592]
+                  - row ".vscode, (Directory) .vscode, (Directory)" [ref=e595]:
+                    - cell ".vscode, (Directory)" [ref=e596]:
+                      - generic [ref=e597]:
+                        - img [ref=e598]
+                        - link ".vscode, (Directory)" [ref=e603] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/.vscode
+                          - text: .vscode
+                    - cell ".vscode, (Directory)" [ref=e604]:
+                      - generic [ref=e605]:
+                        - img [ref=e606]
+                        - link ".vscode, (Directory)" [ref=e611] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/.vscode
+                          - text: .vscode
+                    - cell [ref=e612]
+                    - cell [ref=e614]
+                  - row "Script, (Directory) Script, (Directory)" [ref=e617]:
+                    - cell "Script, (Directory)" [ref=e618]:
+                      - generic [ref=e619]:
+                        - img [ref=e620]
+                        - link "Script, (Directory)" [ref=e625] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/Script
+                          - text: Script
+                    - cell "Script, (Directory)" [ref=e626]:
+                      - generic [ref=e627]:
+                        - img [ref=e628]
+                        - link "Script, (Directory)" [ref=e633] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/Script
+                          - text: Script
+                    - cell [ref=e634]
+                    - cell [ref=e636]
+                  - row "examples, (Directory) examples, (Directory)" [ref=e639]:
+                    - cell "examples, (Directory)" [ref=e640]:
+                      - generic [ref=e641]:
+                        - img [ref=e642]
+                        - link "examples, (Directory)" [ref=e647] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/examples
+                          - text: examples
+                    - cell "examples, (Directory)" [ref=e648]:
+                      - generic [ref=e649]:
+                        - img [ref=e650]
+                        - link "examples, (Directory)" [ref=e655] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/examples
+                          - text: examples
+                    - cell [ref=e656]
+                    - cell [ref=e658]
+                  - row "plugins, (Directory) plugins, (Directory)" [ref=e661]:
+                    - cell "plugins, (Directory)" [ref=e662]:
+                      - generic [ref=e663]:
+                        - img [ref=e664]
+                        - link "plugins, (Directory)" [ref=e669] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/plugins
+                          - text: plugins
+                    - cell "plugins, (Directory)" [ref=e670]:
+                      - generic [ref=e671]:
+                        - img [ref=e672]
+                        - link "plugins, (Directory)" [ref=e677] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/plugins
+                          - text: plugins
+                    - cell [ref=e678]
+                    - cell [ref=e680]
+                  - row "scripts, (Directory) scripts, (Directory)" [ref=e683]:
+                    - cell "scripts, (Directory)" [ref=e684]:
+                      - generic [ref=e685]:
+                        - img [ref=e686]
+                        - link "scripts, (Directory)" [ref=e691] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/scripts
+                          - text: scripts
+                    - cell "scripts, (Directory)" [ref=e692]:
+                      - generic [ref=e693]:
+                        - img [ref=e694]
+                        - link "scripts, (Directory)" [ref=e699] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/tree/main/scripts
+                          - text: scripts
+                    - cell [ref=e700]
+                    - cell [ref=e702]
+                  - row ".gitattributes, (File) .gitattributes, (File)" [ref=e705]:
+                    - cell ".gitattributes, (File)" [ref=e706]:
+                      - generic [ref=e707]:
+                        - img [ref=e708]
+                        - link ".gitattributes, (File)" [ref=e713] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - cell ".gitattributes, (File)" [ref=e714]:
+                      - generic [ref=e715]:
+                        - img [ref=e716]
+                        - link ".gitattributes, (File)" [ref=e721] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - cell [ref=e722]
+                    - cell [ref=e724]
+                  - row ".gitignore, (File) .gitignore, (File)" [ref=e727]:
+                    - cell ".gitignore, (File)" [ref=e728]:
+                      - generic [ref=e729]:
+                        - img [ref=e730]
+                        - link ".gitignore, (File)" [ref=e735] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell ".gitignore, (File)" [ref=e736]:
+                      - generic [ref=e737]:
+                        - img [ref=e738]
+                        - link ".gitignore, (File)" [ref=e743] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e744]
+                    - cell [ref=e746]
+                  - row "CHANGELOG.md, (File) CHANGELOG.md, (File)" [ref=e749]:
+                    - cell "CHANGELOG.md, (File)" [ref=e750]:
+                      - generic [ref=e751]:
+                        - img [ref=e752]
+                        - link "CHANGELOG.md, (File)" [ref=e757] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/CHANGELOG.md
+                          - text: CHANGELOG.md
+                    - cell "CHANGELOG.md, (File)" [ref=e758]:
+                      - generic [ref=e759]:
+                        - img [ref=e760]
+                        - link "CHANGELOG.md, (File)" [ref=e765] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/CHANGELOG.md
+                          - text: CHANGELOG.md
+                    - cell [ref=e766]
+                    - cell [ref=e768]
+                  - row "LICENSE.md, (File) LICENSE.md, (File)" [ref=e771]:
+                    - cell "LICENSE.md, (File)" [ref=e772]:
+                      - generic [ref=e773]:
+                        - img [ref=e774]
+                        - link "LICENSE.md, (File)" [ref=e779] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/LICENSE.md
+                          - text: LICENSE.md
+                    - cell "LICENSE.md, (File)" [ref=e780]:
+                      - generic [ref=e781]:
+                        - img [ref=e782]
+                        - link "LICENSE.md, (File)" [ref=e787] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/LICENSE.md
+                          - text: LICENSE.md
+                    - cell [ref=e788]
+                    - cell [ref=e790]
+                  - row "README.md, (File) README.md, (File)" [ref=e793]:
+                    - cell "README.md, (File)" [ref=e794]:
+                      - generic [ref=e795]:
+                        - img [ref=e796]
+                        - link "README.md, (File)" [ref=e801] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/README.md
+                          - text: README.md
+                    - cell "README.md, (File)" [ref=e802]:
+                      - generic [ref=e803]:
+                        - img [ref=e804]
+                        - link "README.md, (File)" [ref=e809] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/README.md
+                          - text: README.md
+                    - cell [ref=e810]
+                    - cell [ref=e812]
+                  - row "SECURITY.md, (File) SECURITY.md, (File)" [ref=e815]:
+                    - cell "SECURITY.md, (File)" [ref=e816]:
+                      - generic [ref=e817]:
+                        - img [ref=e818]
+                        - link "SECURITY.md, (File)" [ref=e823] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/SECURITY.md
+                          - text: SECURITY.md
+                    - cell "SECURITY.md, (File)" [ref=e824]:
+                      - generic [ref=e825]:
+                        - img [ref=e826]
+                        - link "SECURITY.md, (File)" [ref=e831] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/SECURITY.md
+                          - text: SECURITY.md
+                    - cell [ref=e832]
+                    - cell [ref=e834]
+                  - row "demo.gif, (File) demo.gif, (File)" [ref=e837]:
+                    - cell "demo.gif, (File)" [ref=e838]:
+                      - generic [ref=e839]:
+                        - img [ref=e840]
+                        - link "demo.gif, (File)" [ref=e845] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/demo.gif
+                          - text: demo.gif
+                    - cell "demo.gif, (File)" [ref=e846]:
+                      - generic [ref=e847]:
+                        - img [ref=e848]
+                        - link "demo.gif, (File)" [ref=e853] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/blob/main/demo.gif
+                          - text: demo.gif
+                    - cell [ref=e854]
+                    - cell [ref=e856]
+                  - row "View all files" [ref=e859]:
+                    - cell "View all files" [ref=e860]:
+                      - button "View all files" [ref=e862]
+            - generic [ref=e864]:
+              - generic [ref=e865]:
+                - heading "Repository files navigation" [level=2] [ref=e866]
+                - navigation "Repository files" [ref=e867]:
+                  - list [ref=e868]:
+                    - listitem [ref=e869]:
+                      - link "README" [ref=e870] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e872]
+                        - text: README
+                    - listitem [ref=e874]:
+                      - link "License" [ref=e875] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e877]
+                        - text: License
+                    - listitem [ref=e879]:
+                      - link "Security" [ref=e880] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e882]
+                        - text: Security
+                - button "Outline" [ref=e884]:
+                  - img [ref=e885]
+              - article [ref=e888]:
+                - generic [ref=e889]:
+                  - heading "Claude Code" [level=1] [ref=e890]
+                  - 'link "Permalink: Claude Code" [ref=e891] [cursor=pointer]':
+                    - /url: "#claude-code"
+                    - img [ref=e892]
+                - paragraph [ref=e894]:
+                  - link [ref=e895] [cursor=pointer]:
+                    - /url: https://camo.githubusercontent.com/92c4b317cff472ae3476218ac6a59a4e1e2071b074166d0a003953d6a4408ff1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64652e6a732d31382532422d627269676874677265656e3f7374796c653d666c61742d737175617265
+                  - link "npm" [ref=e896] [cursor=pointer]:
+                    - /url: https://www.npmjs.com/package/@anthropic-ai/claude-code
+                    - img "npm" [ref=e897]
+                - paragraph [ref=e898]: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github.
+                - paragraph [ref=e899]:
+                  - strong [ref=e900]:
+                    - text: Learn more in the
+                    - link "official documentation" [ref=e901] [cursor=pointer]:
+                      - /url: https://code.claude.com/docs/en/overview
+                  - text: .
+                - paragraph [ref=e902]:
+                  - link [ref=e903] [cursor=pointer]:
+                    - /url: /anthropics/claude-code/blob/main/demo.gif
+                    - img [ref=e904]
+                - generic [ref=e905]:
+                  - heading "Get started" [level=2] [ref=e906]
+                  - 'link "Permalink: Get started" [ref=e907] [cursor=pointer]':
+                    - /url: "#get-started"
+                    - img [ref=e908]
+                - generic [ref=e910]:
+                  - paragraph [ref=e911]:
+                    - img [ref=e912]
+                    - text: Note
+                  - paragraph [ref=e914]: Installation via npm is deprecated. Use one of the recommended methods below.
+                - paragraph [ref=e915]:
+                  - text: For more installation options, uninstall steps, and troubleshooting, see the
+                  - link "setup documentation" [ref=e916] [cursor=pointer]:
+                    - /url: https://code.claude.com/docs/en/setup
+                  - text: .
+                - list [ref=e917]:
+                  - listitem [ref=e918]:
+                    - paragraph [ref=e919]: "Install Claude Code:"
+                    - paragraph [ref=e920]:
+                      - strong [ref=e921]: "MacOS/Linux (Recommended):"
+                    - generic [ref=e923]: curl -fsSL https://claude.ai/install.sh | bash
+                    - paragraph [ref=e924]:
+                      - strong [ref=e925]: "Homebrew (MacOS/Linux):"
+                    - generic [ref=e927]: brew install --cask claude-code
+                    - paragraph [ref=e928]:
+                      - strong [ref=e929]: "Windows (Recommended):"
+                    - generic [ref=e931]: irm https://claude.ai/install.ps1 | iex
+                    - paragraph [ref=e932]:
+                      - strong [ref=e933]: "WinGet (Windows):"
+                    - generic [ref=e935]: winget install Anthropic.ClaudeCode
+                    - paragraph [ref=e936]:
+                      - strong [ref=e937]: "NPM (Deprecated):"
+                    - generic [ref=e939]: npm install -g @anthropic-ai/claude-code
+                  - listitem [ref=e940]:
+                    - paragraph [ref=e941]:
+                      - text: Navigate to your project directory and run
+                      - code [ref=e942]: claude
+                      - text: .
+                - generic [ref=e943]:
+                  - heading "Plugins" [level=2] [ref=e944]
+                  - 'link "Permalink: Plugins" [ref=e945] [cursor=pointer]':
+                    - /url: "#plugins"
+                    - img [ref=e946]
+                - paragraph [ref=e948]:
+                  - text: This repository includes several Claude Code plugins that extend functionality with custom commands and agents. See the
+                  - link "plugins directory" [ref=e949] [cursor=pointer]:
+                    - /url: /anthropics/claude-code/blob/main/plugins/README.md
+                  - text: for detailed documentation on available plugins.
+                - generic [ref=e950]:
+                  - heading "Reporting Bugs" [level=2] [ref=e951]
+                  - 'link "Permalink: Reporting Bugs" [ref=e952] [cursor=pointer]':
+                    - /url: "#reporting-bugs"
+                    - img [ref=e953]
+                - paragraph [ref=e955]:
+                  - text: We welcome your feedback. Use the
+                  - code [ref=e956]: /bug
+                  - text: command to report issues directly within Claude Code, or file a
+                  - link "GitHub issue" [ref=e957] [cursor=pointer]:
+                    - /url: https://github.com/anthropics/claude-code/issues
+                  - text: .
+                - generic [ref=e958]:
+                  - heading "Connect on Discord" [level=2] [ref=e959]
+                  - 'link "Permalink: Connect on Discord" [ref=e960] [cursor=pointer]':
+                    - /url: "#connect-on-discord"
+                    - img [ref=e961]
+                - paragraph [ref=e963]:
+                  - text: Join the
+                  - link "Claude Developers Discord" [ref=e964] [cursor=pointer]:
+                    - /url: https://anthropic.com/discord
+                  - text: to connect with other developers using Claude Code. Get help, share feedback, and discuss your projects with the community.
+                - generic [ref=e965]:
+                  - heading "Data collection, usage, and retention" [level=2] [ref=e966]
+                  - 'link "Permalink: Data collection, usage, and retention" [ref=e967] [cursor=pointer]':
+                    - /url: "#data-collection-usage-and-retention"
+                    - img [ref=e968]
+                - paragraph [ref=e970]:
+                  - text: When you use Claude Code, we collect feedback, which includes usage data (such as code acceptance or rejections), associated conversation data, and user feedback submitted via the
+                  - code [ref=e971]: /bug
+                  - text: command.
+                - generic [ref=e972]:
+                  - heading "How we use your data" [level=3] [ref=e973]
+                  - 'link "Permalink: How we use your data" [ref=e974] [cursor=pointer]':
+                    - /url: "#how-we-use-your-data"
+                    - img [ref=e975]
+                - paragraph [ref=e977]:
+                  - text: See our
+                  - link "data usage policies" [ref=e978] [cursor=pointer]:
+                    - /url: https://code.claude.com/docs/en/data-usage
+                  - text: .
+                - generic [ref=e979]:
+                  - heading "Privacy safeguards" [level=3] [ref=e980]
+                  - 'link "Permalink: Privacy safeguards" [ref=e981] [cursor=pointer]':
+                    - /url: "#privacy-safeguards"
+                    - img [ref=e982]
+                - paragraph [ref=e984]: We have implemented several safeguards to protect your data, including limited retention periods for sensitive information, restricted access to user session data, and clear policies against using feedback for model training.
+                - paragraph [ref=e985]:
+                  - text: For full details, please review our
+                  - link "Commercial Terms of Service" [ref=e986] [cursor=pointer]:
+                    - /url: https://www.anthropic.com/legal/commercial-terms
+                  - text: and
+                  - link "Privacy Policy" [ref=e987] [cursor=pointer]:
+                    - /url: https://www.anthropic.com/legal/privacy
+                  - text: .
+        - generic [ref=e991]:
+          - generic [ref=e994]:
+            - heading "About" [level=2] [ref=e995]
+            - paragraph [ref=e996]: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+            - generic [ref=e997]:
+              - img [ref=e998]
+              - link "code.claude.com/docs/en/overview" [ref=e1001] [cursor=pointer]:
+                - /url: https://code.claude.com/docs/en/overview
+            - heading "Resources" [level=3] [ref=e1002]
+            - link "Readme" [ref=e1004] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1005]
+              - text: Readme
+            - heading "Security policy" [level=3] [ref=e1007]
+            - link "Security policy" [ref=e1009] [cursor=pointer]:
+              - /url: "#security-ov-file"
+              - img [ref=e1010]
+              - text: Security policy
+            - link "Activity" [ref=e1013] [cursor=pointer]:
+              - /url: /anthropics/claude-code/activity
+              - img [ref=e1014]
+              - text: Activity
+            - link "Custom properties" [ref=e1017] [cursor=pointer]:
+              - /url: /anthropics/claude-code/custom-properties
+              - img [ref=e1018]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e1020]
+            - link "83.3k stars" [ref=e1022] [cursor=pointer]:
+              - /url: /anthropics/claude-code/stargazers
+              - img [ref=e1023]
+              - strong [ref=e1025]: 83.3k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1026]
+            - link "521 watching" [ref=e1028] [cursor=pointer]:
+              - /url: /anthropics/claude-code/watchers
+              - img [ref=e1029]
+              - strong [ref=e1031]: "521"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1032]
+            - link "7k forks" [ref=e1034] [cursor=pointer]:
+              - /url: /anthropics/claude-code/forks
+              - img [ref=e1035]
+              - strong [ref=e1037]: 7k
+              - text: forks
+            - link "Report repository" [ref=e1039] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fanthropics%2Fclaude-code&report=anthropics+%28user%29
+          - generic [ref=e1041]:
+            - heading "Contributors 51" [level=2] [ref=e1042]:
+              - link "Contributors 51" [ref=e1043] [cursor=pointer]:
+                - /url: /anthropics/claude-code/graphs/contributors
+            - list [ref=e1044]:
+              - listitem [ref=e1045]:
+                - link "@actions-user" [ref=e1046] [cursor=pointer]:
+                  - /url: https://github.com/actions-user
+                  - img "@actions-user" [ref=e1047]
+              - listitem [ref=e1048]:
+                - link "@bcherny" [ref=e1049] [cursor=pointer]:
+                  - /url: https://github.com/bcherny
+                  - img "@bcherny" [ref=e1050]
+              - listitem [ref=e1051]:
+                - link "@claude" [ref=e1052] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e1053]
+              - listitem [ref=e1054]:
+                - link "@ant-kurt" [ref=e1055] [cursor=pointer]:
+                  - /url: https://github.com/ant-kurt
+                  - img "@ant-kurt" [ref=e1056]
+              - listitem [ref=e1057]:
+                - link "@ashwin-ant" [ref=e1058] [cursor=pointer]:
+                  - /url: https://github.com/ashwin-ant
+                  - img "@ashwin-ant" [ref=e1059]
+              - listitem [ref=e1060]:
+                - link "@fvolcic" [ref=e1061] [cursor=pointer]:
+                  - /url: https://github.com/fvolcic
+                  - img "@fvolcic" [ref=e1062]
+              - listitem [ref=e1063]:
+                - link "@bogini" [ref=e1064] [cursor=pointer]:
+                  - /url: https://github.com/bogini
+                  - img "@bogini" [ref=e1065]
+              - listitem [ref=e1066]:
+                - link "@OctavianGuzu" [ref=e1067] [cursor=pointer]:
+                  - /url: https://github.com/OctavianGuzu
+                  - img "@OctavianGuzu" [ref=e1068]
+              - listitem [ref=e1069]:
+                - link "@chrislloyd" [ref=e1070] [cursor=pointer]:
+                  - /url: https://github.com/chrislloyd
+                  - img "@chrislloyd" [ref=e1071]
+              - listitem [ref=e1072]:
+                - link "@ThariqS" [ref=e1073] [cursor=pointer]:
+                  - /url: https://github.com/ThariqS
+                  - img "@ThariqS" [ref=e1074]
+              - listitem [ref=e1075]:
+                - link "@hackyon-anthropic" [ref=e1076] [cursor=pointer]:
+                  - /url: https://github.com/hackyon-anthropic
+                  - img "@hackyon-anthropic" [ref=e1077]
+              - listitem [ref=e1078]:
+                - link "@whyuan-cc" [ref=e1079] [cursor=pointer]:
+                  - /url: https://github.com/whyuan-cc
+                  - img "@whyuan-cc" [ref=e1080]
+              - listitem [ref=e1081]:
+                - link "@dhollman" [ref=e1082] [cursor=pointer]:
+                  - /url: https://github.com/dhollman
+                  - img "@dhollman" [ref=e1083]
+              - listitem [ref=e1084]:
+                - link "@dicksontsai" [ref=e1085] [cursor=pointer]:
+                  - /url: https://github.com/dicksontsai
+                  - img "@dicksontsai" [ref=e1086]
+            - link "+ 37 contributors" [ref=e1088] [cursor=pointer]:
+              - /url: /anthropics/claude-code/graphs/contributors
+          - generic [ref=e1090]:
+            - heading "Languages" [level=2] [ref=e1091]
+            - list [ref=e1092]:
+              - listitem [ref=e1093]:
+                - link "Shell 47.0%" [ref=e1094] [cursor=pointer]:
+                  - /url: /anthropics/claude-code/search?l=shell
+                  - img [ref=e1095]
+                  - text: Shell 47.0%
+              - listitem [ref=e1097]:
+                - link "Python 29.3%" [ref=e1098] [cursor=pointer]:
+                  - /url: /anthropics/claude-code/search?l=python
+                  - img [ref=e1099]
+                  - text: Python 29.3%
+              - listitem [ref=e1101]:
+                - link "TypeScript 17.7%" [ref=e1102] [cursor=pointer]:
+                  - /url: /anthropics/claude-code/search?l=typescript
+                  - img [ref=e1103]
+                  - text: TypeScript 17.7%
+              - listitem [ref=e1105]:
+                - link "PowerShell 4.1%" [ref=e1106] [cursor=pointer]:
+                  - /url: /anthropics/claude-code/search?l=powershell
+                  - img [ref=e1107]
+                  - text: PowerShell 4.1%
+              - listitem [ref=e1109]:
+                - link "Dockerfile 1.9%" [ref=e1110] [cursor=pointer]:
+                  - /url: /anthropics/claude-code/search?l=dockerfile
+                  - img [ref=e1111]
+                  - text: Dockerfile 1.9%
+  - contentinfo [ref=e1113]:
+    - heading "Footer" [level=2] [ref=e1114]
+    - generic [ref=e1115]:
+      - generic [ref=e1116]:
+        - link "GitHub Homepage" [ref=e1117] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1118]
+        - text: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1120]:
+        - heading "Footer navigation" [level=3] [ref=e1121]
+        - list "Footer navigation" [ref=e1122]:
+          - listitem [ref=e1123]:
+            - link "Terms" [ref=e1124] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1125]:
+            - link "Privacy" [ref=e1126] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1127]:
+            - link "Security" [ref=e1128] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1129]:
+            - link "Status" [ref=e1130] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1131]:
+            - link "Community" [ref=e1132] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1133]:
+            - link "Docs" [ref=e1134] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1135]:
+            - link "Contact" [ref=e1136] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1137]:
+            - button "Manage cookies" [ref=e1139]
+          - listitem [ref=e1140]:
+            - button "Do not share my personal information" [ref=e1142]

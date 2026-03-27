@@ -1,0 +1,1004 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e5]:
+      - heading "Navigation Menu" [level=2] [ref=e6]
+      - button "Toggle navigation" [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle navigation" [ref=e11]
+          - link "Homepage" [ref=e12] [cursor=pointer]:
+            - /url: /
+            - img [ref=e13]
+          - generic [ref=e15]:
+            - link "Sign in" [ref=e16] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fanthropics
+            - button "Appearance settings" [disabled] [ref=e19]:
+              - img [ref=e20]
+        - link "anthropics" [ref=e23] [cursor=pointer]:
+          - /url: /anthropics
+        - generic [ref=e25]:
+          - navigation "Global" [ref=e28]:
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - generic [ref=e31]:
+                  - button "Platform" [ref=e32]:
+                    - text: Platform
+                    - img [ref=e33]
+                  - generic [ref=e35]:
+                    - list [ref=e36]:
+                      - listitem [ref=e37]:
+                        - generic [ref=e38]:
+                          - text: AI CODE CREATION
+                          - list [ref=e39]:
+                            - listitem [ref=e40]:
+                              - link "GitHub CopilotWrite better code with AI" [ref=e41] [cursor=pointer]:
+                                - /url: https://github.com/features/copilot
+                                - generic [ref=e42]:
+                                  - img [ref=e43]
+                                  - text: GitHub CopilotWrite better code with AI
+                            - listitem [ref=e46]:
+                              - link "GitHub SparkBuild and deploy intelligent apps" [ref=e47] [cursor=pointer]:
+                                - /url: https://github.com/features/spark
+                                - generic [ref=e48]:
+                                  - img [ref=e49]
+                                  - text: GitHub SparkBuild and deploy intelligent apps
+                            - listitem [ref=e51]:
+                              - link "GitHub ModelsManage and compare prompts" [ref=e52] [cursor=pointer]:
+                                - /url: https://github.com/features/models
+                                - generic [ref=e53]:
+                                  - img [ref=e54]
+                                  - text: GitHub ModelsManage and compare prompts
+                            - listitem [ref=e56]:
+                              - link "MCP RegistryNewIntegrate external tools" [ref=e57] [cursor=pointer]:
+                                - /url: https://github.com/mcp
+                                - generic [ref=e58]:
+                                  - img [ref=e59]
+                                  - generic [ref=e62]:
+                                    - text: MCP Registry
+                                    - superscript [ref=e63]: New
+                                  - text: Integrate external tools
+                      - listitem [ref=e64]:
+                        - generic [ref=e65]:
+                          - text: DEVELOPER WORKFLOWS
+                          - list [ref=e66]:
+                            - listitem [ref=e67]:
+                              - link "ActionsAutomate any workflow" [ref=e68] [cursor=pointer]:
+                                - /url: https://github.com/features/actions
+                                - generic [ref=e69]:
+                                  - img [ref=e70]
+                                  - text: ActionsAutomate any workflow
+                            - listitem [ref=e72]:
+                              - link "CodespacesInstant dev environments" [ref=e73] [cursor=pointer]:
+                                - /url: https://github.com/features/codespaces
+                                - generic [ref=e74]:
+                                  - img [ref=e75]
+                                  - text: CodespacesInstant dev environments
+                            - listitem [ref=e78]:
+                              - link "IssuesPlan and track work" [ref=e79] [cursor=pointer]:
+                                - /url: https://github.com/features/issues
+                                - generic [ref=e80]:
+                                  - img [ref=e81]
+                                  - text: IssuesPlan and track work
+                            - listitem [ref=e83]:
+                              - link "Code ReviewManage code changes" [ref=e84] [cursor=pointer]:
+                                - /url: https://github.com/features/code-review
+                                - generic [ref=e85]:
+                                  - img [ref=e86]
+                                  - text: Code ReviewManage code changes
+                      - listitem [ref=e88]:
+                        - generic [ref=e89]:
+                          - text: APPLICATION SECURITY
+                          - list [ref=e90]:
+                            - listitem [ref=e91]:
+                              - link "GitHub Advanced SecurityFind and fix vulnerabilities" [ref=e92] [cursor=pointer]:
+                                - /url: https://github.com/security/advanced-security
+                                - generic [ref=e93]:
+                                  - img [ref=e94]
+                                  - text: GitHub Advanced SecurityFind and fix vulnerabilities
+                            - listitem [ref=e97]:
+                              - link "Code securitySecure your code as you build" [ref=e98] [cursor=pointer]:
+                                - /url: https://github.com/security/advanced-security/code-security
+                                - generic [ref=e99]:
+                                  - img [ref=e100]
+                                  - text: Code securitySecure your code as you build
+                            - listitem [ref=e103]:
+                              - link "Secret protectionStop leaks before they start" [ref=e104] [cursor=pointer]:
+                                - /url: https://github.com/security/advanced-security/secret-protection
+                                - generic [ref=e105]:
+                                  - img [ref=e106]
+                                  - text: Secret protectionStop leaks before they start
+                      - listitem [ref=e108]:
+                        - generic [ref=e109]:
+                          - text: EXPLORE
+                          - list [ref=e110]:
+                            - listitem [ref=e111]:
+                              - link "Why GitHub" [ref=e112] [cursor=pointer]:
+                                - /url: https://github.com/why-github
+                            - listitem [ref=e113]:
+                              - link "Documentation" [ref=e114] [cursor=pointer]:
+                                - /url: https://docs.github.com
+                                - text: Documentation
+                                - img [ref=e115]
+                            - listitem [ref=e117]:
+                              - link "Blog" [ref=e118] [cursor=pointer]:
+                                - /url: https://github.blog
+                                - text: Blog
+                                - img [ref=e119]
+                            - listitem [ref=e121]:
+                              - link "Changelog" [ref=e122] [cursor=pointer]:
+                                - /url: https://github.blog/changelog
+                                - text: Changelog
+                                - img [ref=e123]
+                            - listitem [ref=e125]:
+                              - link "Marketplace" [ref=e126] [cursor=pointer]:
+                                - /url: https://github.com/marketplace
+                    - link "View all features" [ref=e128] [cursor=pointer]:
+                      - /url: https://github.com/features
+                      - text: View all features
+                      - img [ref=e129]
+              - listitem [ref=e131]:
+                - generic [ref=e132]:
+                  - button "Solutions" [ref=e133]:
+                    - text: Solutions
+                    - img [ref=e134]
+                  - generic [ref=e136]:
+                    - list [ref=e137]:
+                      - listitem [ref=e138]:
+                        - generic [ref=e139]:
+                          - text: BY COMPANY SIZE
+                          - list [ref=e140]:
+                            - listitem [ref=e141]:
+                              - link "Enterprises" [ref=e142] [cursor=pointer]:
+                                - /url: https://github.com/enterprise
+                            - listitem [ref=e143]:
+                              - link "Small and medium teams" [ref=e144] [cursor=pointer]:
+                                - /url: https://github.com/team
+                            - listitem [ref=e145]:
+                              - link "Startups" [ref=e146] [cursor=pointer]:
+                                - /url: https://github.com/enterprise/startups
+                            - listitem [ref=e147]:
+                              - link "Nonprofits" [ref=e148] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/nonprofits
+                      - listitem [ref=e149]:
+                        - generic [ref=e150]:
+                          - text: BY USE CASE
+                          - list [ref=e151]:
+                            - listitem [ref=e152]:
+                              - link "App Modernization" [ref=e153] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/app-modernization
+                            - listitem [ref=e154]:
+                              - link "DevSecOps" [ref=e155] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/devsecops
+                            - listitem [ref=e156]:
+                              - link "DevOps" [ref=e157] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/devops
+                            - listitem [ref=e158]:
+                              - link "CI/CD" [ref=e159] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case/ci-cd
+                            - listitem [ref=e160]:
+                              - link "View all use cases" [ref=e161] [cursor=pointer]:
+                                - /url: https://github.com/solutions/use-case
+                                - text: View all use cases
+                                - img [ref=e162]
+                      - listitem [ref=e164]:
+                        - generic [ref=e165]:
+                          - text: BY INDUSTRY
+                          - list [ref=e166]:
+                            - listitem [ref=e167]:
+                              - link "Healthcare" [ref=e168] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/healthcare
+                            - listitem [ref=e169]:
+                              - link "Financial services" [ref=e170] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/financial-services
+                            - listitem [ref=e171]:
+                              - link "Manufacturing" [ref=e172] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/manufacturing
+                            - listitem [ref=e173]:
+                              - link "Government" [ref=e174] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry/government
+                            - listitem [ref=e175]:
+                              - link "View all industries" [ref=e176] [cursor=pointer]:
+                                - /url: https://github.com/solutions/industry
+                                - text: View all industries
+                                - img [ref=e177]
+                    - link "View all solutions" [ref=e180] [cursor=pointer]:
+                      - /url: https://github.com/solutions
+                      - text: View all solutions
+                      - img [ref=e181]
+              - listitem [ref=e183]:
+                - generic [ref=e184]:
+                  - button "Resources" [ref=e185]:
+                    - text: Resources
+                    - img [ref=e186]
+                  - generic [ref=e188]:
+                    - list [ref=e189]:
+                      - listitem [ref=e190]:
+                        - generic [ref=e191]:
+                          - text: EXPLORE BY TOPIC
+                          - list [ref=e192]:
+                            - listitem [ref=e193]:
+                              - link "AI" [ref=e194] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=ai
+                            - listitem [ref=e195]:
+                              - link "Software Development" [ref=e196] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=software-development
+                            - listitem [ref=e197]:
+                              - link "DevOps" [ref=e198] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=devops
+                            - listitem [ref=e199]:
+                              - link "Security" [ref=e200] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles?topic=security
+                            - listitem [ref=e201]:
+                              - link "View all topics" [ref=e202] [cursor=pointer]:
+                                - /url: https://github.com/resources/articles
+                                - text: View all topics
+                                - img [ref=e203]
+                      - listitem [ref=e205]:
+                        - generic [ref=e206]:
+                          - text: EXPLORE BY TYPE
+                          - list [ref=e207]:
+                            - listitem [ref=e208]:
+                              - link "Customer stories" [ref=e209] [cursor=pointer]:
+                                - /url: https://github.com/customer-stories
+                            - listitem [ref=e210]:
+                              - link "Events & webinars" [ref=e211] [cursor=pointer]:
+                                - /url: https://github.com/resources/events
+                            - listitem [ref=e212]:
+                              - link "Ebooks & reports" [ref=e213] [cursor=pointer]:
+                                - /url: https://github.com/resources/whitepapers
+                            - listitem [ref=e214]:
+                              - link "Business insights" [ref=e215] [cursor=pointer]:
+                                - /url: https://github.com/solutions/executive-insights
+                            - listitem [ref=e216]:
+                              - link "GitHub Skills" [ref=e217] [cursor=pointer]:
+                                - /url: https://skills.github.com
+                                - text: GitHub Skills
+                                - img [ref=e218]
+                      - listitem [ref=e220]:
+                        - generic [ref=e221]:
+                          - text: SUPPORT & SERVICES
+                          - list [ref=e222]:
+                            - listitem [ref=e223]:
+                              - link "Documentation" [ref=e224] [cursor=pointer]:
+                                - /url: https://docs.github.com
+                                - text: Documentation
+                                - img [ref=e225]
+                            - listitem [ref=e227]:
+                              - link "Customer support" [ref=e228] [cursor=pointer]:
+                                - /url: https://support.github.com
+                                - text: Customer support
+                                - img [ref=e229]
+                            - listitem [ref=e231]:
+                              - link "Community forum" [ref=e232] [cursor=pointer]:
+                                - /url: https://github.com/orgs/community/discussions
+                            - listitem [ref=e233]:
+                              - link "Trust center" [ref=e234] [cursor=pointer]:
+                                - /url: https://github.com/trust-center
+                            - listitem [ref=e235]:
+                              - link "Partners" [ref=e236] [cursor=pointer]:
+                                - /url: https://github.com/partners
+                    - link "View all resources" [ref=e238] [cursor=pointer]:
+                      - /url: https://github.com/resources
+                      - text: View all resources
+                      - img [ref=e239]
+              - listitem [ref=e241]:
+                - generic [ref=e242]:
+                  - button "Open Source" [ref=e243]:
+                    - text: Open Source
+                    - img [ref=e244]
+                  - list [ref=e247]:
+                    - listitem [ref=e248]:
+                      - generic [ref=e249]:
+                        - text: COMMUNITY
+                        - list [ref=e250]:
+                          - listitem [ref=e251]:
+                            - link "GitHub SponsorsFund open source developers" [ref=e252] [cursor=pointer]:
+                              - /url: https://github.com/sponsors
+                              - generic [ref=e253]:
+                                - img [ref=e254]
+                                - text: GitHub SponsorsFund open source developers
+                    - listitem [ref=e256]:
+                      - generic [ref=e257]:
+                        - text: PROGRAMS
+                        - list [ref=e258]:
+                          - listitem [ref=e259]:
+                            - link "Security Lab" [ref=e260] [cursor=pointer]:
+                              - /url: https://securitylab.github.com
+                              - text: Security Lab
+                              - img [ref=e261]
+                          - listitem [ref=e263]:
+                            - link "Maintainer Community" [ref=e264] [cursor=pointer]:
+                              - /url: https://maintainers.github.com
+                              - text: Maintainer Community
+                              - img [ref=e265]
+                          - listitem [ref=e267]:
+                            - link "Accelerator" [ref=e268] [cursor=pointer]:
+                              - /url: https://github.com/accelerator
+                          - listitem [ref=e269]:
+                            - link "GitHub Stars" [ref=e270] [cursor=pointer]:
+                              - /url: https://stars.github.com
+                              - text: GitHub Stars
+                              - img [ref=e271]
+                          - listitem [ref=e273]:
+                            - link "Archive Program" [ref=e274] [cursor=pointer]:
+                              - /url: https://archiveprogram.github.com
+                              - text: Archive Program
+                              - img [ref=e275]
+                    - listitem [ref=e277]:
+                      - generic [ref=e278]:
+                        - text: REPOSITORIES
+                        - list [ref=e279]:
+                          - listitem [ref=e280]:
+                            - link "Topics" [ref=e281] [cursor=pointer]:
+                              - /url: https://github.com/topics
+                          - listitem [ref=e282]:
+                            - link "Trending" [ref=e283] [cursor=pointer]:
+                              - /url: https://github.com/trending
+                          - listitem [ref=e284]:
+                            - link "Collections" [ref=e285] [cursor=pointer]:
+                              - /url: https://github.com/collections
+              - listitem [ref=e286]:
+                - generic [ref=e287]:
+                  - button "Enterprise" [ref=e288]:
+                    - text: Enterprise
+                    - img [ref=e289]
+                  - list [ref=e292]:
+                    - listitem [ref=e293]:
+                      - generic [ref=e294]:
+                        - text: ENTERPRISE SOLUTIONS
+                        - list [ref=e295]:
+                          - listitem [ref=e296]:
+                            - link "Enterprise platformAI-powered developer platform" [ref=e297] [cursor=pointer]:
+                              - /url: https://github.com/enterprise
+                              - generic [ref=e298]:
+                                - img [ref=e299]
+                                - text: Enterprise platformAI-powered developer platform
+                    - listitem [ref=e303]:
+                      - generic [ref=e304]:
+                        - text: AVAILABLE ADD-ONS
+                        - list [ref=e305]:
+                          - listitem [ref=e306]:
+                            - link "GitHub Advanced SecurityEnterprise-grade security features" [ref=e307] [cursor=pointer]:
+                              - /url: https://github.com/security/advanced-security
+                              - generic [ref=e308]:
+                                - img [ref=e309]
+                                - text: GitHub Advanced SecurityEnterprise-grade security features
+                          - listitem [ref=e312]:
+                            - link "Copilot for BusinessEnterprise-grade AI features" [ref=e313] [cursor=pointer]:
+                              - /url: https://github.com/features/copilot/copilot-business
+                              - generic [ref=e314]:
+                                - img [ref=e315]
+                                - text: Copilot for BusinessEnterprise-grade AI features
+                          - listitem [ref=e318]:
+                            - link "Premium SupportEnterprise-grade 24/7 support" [ref=e319] [cursor=pointer]:
+                              - /url: https://github.com/premium-support
+                              - generic [ref=e320]:
+                                - img [ref=e321]
+                                - text: Premium SupportEnterprise-grade 24/7 support
+              - listitem [ref=e324]:
+                - link "Pricing" [ref=e325] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e326]:
+            - generic [ref=e328]:
+              - button "Search or jump to…" [ref=e329]:
+                - img [ref=e331]
+                - text: Search or jump to...
+                - img [ref=e334]
+              - dialog "Search code, repositories, users, issues, pull requests..." [ref=e338]:
+                - heading "Search code, repositories, users, issues, pull requests..." [level=1] [ref=e339]
+            - link "Sign in" [ref=e341] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fanthropics
+            - link "Sign up" [ref=e342] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Corg-login%3E&source=header
+            - button "Appearance settings" [disabled] [ref=e345]:
+              - img [ref=e346]
+            - button "Resetting focus" [ref=e348]
+  - main [ref=e350]:
+    - generic [ref=e351]:
+      - generic [ref=e352]:
+        - generic [ref=e354]:
+          - img "@anthropics" [ref=e356]
+          - generic [ref=e357]:
+            - heading "Anthropic" [level=1] [ref=e358]
+            - list [ref=e359]:
+              - listitem [ref=e360]:
+                - group [ref=e361]:
+                  - generic "Verified" [ref=e362]
+              - listitem [ref=e363]
+            - list [ref=e365]:
+              - listitem [ref=e366]:
+                - img [ref=e367]
+                - link "40.6k followers" [ref=e369] [cursor=pointer]:
+                  - /url: /orgs/anthropics/followers
+              - listitem [ref=e370]:
+                - img [ref=e371]
+                - text: United States of America
+              - listitem [ref=e373]:
+                - img [ref=e374]
+                - link "https://anthropic.com" [ref=e376] [cursor=pointer]:
+                  - /url: https://anthropic.com
+        - navigation "Organization" [ref=e378]:
+          - list [ref=e380]:
+            - listitem [ref=e381]:
+              - link "Overview" [ref=e382] [cursor=pointer]:
+                - /url: /anthropics
+                - img [ref=e383]
+                - text: Overview
+            - listitem [ref=e385]:
+              - link "Repositories Not available" [ref=e386] [cursor=pointer]:
+                - /url: /orgs/anthropics/repositories
+                - img [ref=e387]
+                - text: Repositories
+                - generic "Not available"
+            - listitem [ref=e389]:
+              - link "Projects Not available" [ref=e390] [cursor=pointer]:
+                - /url: /orgs/anthropics/projects
+                - img [ref=e391]
+                - text: Projects
+                - generic "Not available"
+            - listitem [ref=e393]:
+              - link "Packages" [ref=e394] [cursor=pointer]:
+                - /url: /orgs/anthropics/packages
+                - img [ref=e395]
+                - text: Packages
+            - listitem [ref=e397]:
+              - link "People Not available" [ref=e398] [cursor=pointer]:
+                - /url: /orgs/anthropics/people
+                - img [ref=e399]
+                - text: People
+                - generic "Not available"
+      - generic [ref=e402]:
+        - generic [ref=e405]:
+          - generic [ref=e406]:
+            - heading "Popular repositories Loading" [level=2] [ref=e407]:
+              - text: Popular repositories
+              - generic [ref=e408]:
+                - img [ref=e409]
+                - text: Loading
+              - status
+            - list [ref=e412]:
+              - listitem [ref=e413]:
+                - generic [ref=e415]:
+                  - generic [ref=e416]:
+                    - link "skills" [ref=e418] [cursor=pointer]:
+                      - /url: /anthropics/skills
+                    - generic [ref=e419]: Public
+                  - paragraph [ref=e420]: Public repository for Agent Skills
+                  - paragraph [ref=e421]:
+                    - generic [ref=e422]: Python
+                    - link "stars 104k" [ref=e423] [cursor=pointer]:
+                      - /url: /anthropics/skills/stargazers
+                      - img "stars" [ref=e424]
+                      - text: 104k
+                    - link "forks 11.4k" [ref=e426] [cursor=pointer]:
+                      - /url: /anthropics/skills/forks
+                      - img "forks" [ref=e427]
+                      - text: 11.4k
+              - listitem [ref=e429]:
+                - generic [ref=e431]:
+                  - generic [ref=e432]:
+                    - link "claude-code" [ref=e434] [cursor=pointer]:
+                      - /url: /anthropics/claude-code
+                    - generic [ref=e435]: Public
+                  - paragraph [ref=e436]: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflo…
+                  - paragraph [ref=e437]:
+                    - generic [ref=e438]: Shell
+                    - link "stars 83.3k" [ref=e439] [cursor=pointer]:
+                      - /url: /anthropics/claude-code/stargazers
+                      - img "stars" [ref=e440]
+                      - text: 83.3k
+                    - link "forks 7k" [ref=e442] [cursor=pointer]:
+                      - /url: /anthropics/claude-code/forks
+                      - img "forks" [ref=e443]
+                      - text: 7k
+              - listitem [ref=e445]:
+                - generic [ref=e447]:
+                  - generic [ref=e448]:
+                    - link "claude-cookbooks" [ref=e450] [cursor=pointer]:
+                      - /url: /anthropics/claude-cookbooks
+                    - generic [ref=e451]: Public
+                  - paragraph [ref=e452]: A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
+                  - paragraph [ref=e453]:
+                    - generic [ref=e454]: Jupyter Notebook
+                    - link "stars 36.3k" [ref=e455] [cursor=pointer]:
+                      - /url: /anthropics/claude-cookbooks/stargazers
+                      - img "stars" [ref=e456]
+                      - text: 36.3k
+                    - link "forks 3.9k" [ref=e458] [cursor=pointer]:
+                      - /url: /anthropics/claude-cookbooks/forks
+                      - img "forks" [ref=e459]
+                      - text: 3.9k
+              - listitem [ref=e461]:
+                - generic [ref=e463]:
+                  - generic [ref=e464]:
+                    - link "prompt-eng-interactive-tutorial" [ref=e466] [cursor=pointer]:
+                      - /url: /anthropics/prompt-eng-interactive-tutorial
+                    - generic [ref=e467]: Public
+                  - paragraph [ref=e468]: Anthropic's Interactive Prompt Engineering Tutorial
+                  - paragraph [ref=e469]:
+                    - generic [ref=e470]: Jupyter Notebook
+                    - link "stars 34.1k" [ref=e471] [cursor=pointer]:
+                      - /url: /anthropics/prompt-eng-interactive-tutorial/stargazers
+                      - img "stars" [ref=e472]
+                      - text: 34.1k
+                    - link "forks 3.5k" [ref=e474] [cursor=pointer]:
+                      - /url: /anthropics/prompt-eng-interactive-tutorial/forks
+                      - img "forks" [ref=e475]
+                      - text: 3.5k
+              - listitem [ref=e477]:
+                - generic [ref=e479]:
+                  - generic [ref=e480]:
+                    - link "courses" [ref=e482] [cursor=pointer]:
+                      - /url: /anthropics/courses
+                    - generic [ref=e483]: Public
+                  - paragraph [ref=e484]: Anthropic's educational courses
+                  - paragraph [ref=e485]:
+                    - generic [ref=e486]: Jupyter Notebook
+                    - link "stars 19.9k" [ref=e487] [cursor=pointer]:
+                      - /url: /anthropics/courses/stargazers
+                      - img "stars" [ref=e488]
+                      - text: 19.9k
+                    - link "forks 2k" [ref=e490] [cursor=pointer]:
+                      - /url: /anthropics/courses/forks
+                      - img "forks" [ref=e491]
+                      - text: 2k
+              - listitem [ref=e493]:
+                - generic [ref=e495]:
+                  - generic [ref=e496]:
+                    - link "claude-quickstarts" [ref=e498] [cursor=pointer]:
+                      - /url: /anthropics/claude-quickstarts
+                    - generic [ref=e499]: Public
+                  - paragraph [ref=e500]: A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
+                  - paragraph [ref=e501]:
+                    - generic [ref=e502]: Python
+                    - link "stars 15.6k" [ref=e503] [cursor=pointer]:
+                      - /url: /anthropics/claude-quickstarts/stargazers
+                      - img "stars" [ref=e504]
+                      - text: 15.6k
+                    - link "forks 2.6k" [ref=e506] [cursor=pointer]:
+                      - /url: /anthropics/claude-quickstarts/forks
+                      - img "forks" [ref=e507]
+                      - text: 2.6k
+          - generic [ref=e510]:
+            - heading "Repositories" [level=3] [ref=e511]:
+              - img [ref=e512]
+              - text: Repositories
+            - search [ref=e516]:
+              - generic [ref=e517]:
+                - generic [ref=e518]:
+                  - searchbox "Find a repository…" [ref=e519]
+                  - img [ref=e520]
+                  - generic [ref=e522]:
+                    - img [ref=e523]
+                    - text: Loading
+                - generic [ref=e526]:
+                  - group [ref=e527]:
+                    - generic "Type" [ref=e528]: Type
+                  - group [ref=e529]:
+                    - generic "Language" [ref=e530]: Language
+                  - group [ref=e531]:
+                    - generic "Sort" [ref=e532]: Sort
+            - generic [ref=e534]:
+              - text: Showing 10 of 78 repositories
+              - generic [ref=e535]:
+                - list [ref=e536]:
+                  - listitem [ref=e537]:
+                    - generic [ref=e538]:
+                      - generic [ref=e539]:
+                        - generic [ref=e540]:
+                          - link "connect-rust" [ref=e541] [cursor=pointer]:
+                            - /url: /anthropics/connect-rust
+                          - text: Public
+                          - paragraph [ref=e542]: An implementation of the ConnectRPC protocol for Rust
+                        - link [ref=e544] [cursor=pointer]:
+                          - /url: /anthropics/connect-rust/graphs/commit-activity
+                          - img [ref=e546]
+                      - generic [ref=e549]:
+                        - generic [ref=e550]: Rust
+                        - link "83 stars" [ref=e551] [cursor=pointer]:
+                          - /url: /anthropics/connect-rust/stargazers
+                          - img [ref=e552]
+                          - text: "83"
+                        - generic [ref=e554]:
+                          - img [ref=e555]
+                          - text: Apache-2.0
+                        - link "4 forks" [ref=e557] [cursor=pointer]:
+                          - /url: /anthropics/connect-rust/forks
+                          - img [ref=e558]
+                          - text: "4"
+                        - link "7 issues" [ref=e560] [cursor=pointer]:
+                          - /url: /anthropics/connect-rust/issues
+                          - img [ref=e561]
+                          - text: "7"
+                        - link "1 pull request" [ref=e564] [cursor=pointer]:
+                          - /url: /anthropics/connect-rust/pulls
+                          - img [ref=e565]
+                          - text: "1"
+                        - generic [ref=e567]: Updated Mar 26, 2026
+                  - listitem [ref=e568]:
+                    - generic [ref=e569]:
+                      - generic [ref=e570]:
+                        - generic [ref=e571]:
+                          - link "claude-agent-sdk-python" [ref=e572] [cursor=pointer]:
+                            - /url: /anthropics/claude-agent-sdk-python
+                          - text: Public
+                        - link [ref=e574] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-python/graphs/commit-activity
+                          - img [ref=e576]
+                      - generic [ref=e579]:
+                        - generic [ref=e580]: Python
+                        - link "5867 stars" [ref=e581] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-python/stargazers
+                          - img [ref=e582]
+                          - text: 5,867
+                        - generic [ref=e584]:
+                          - img [ref=e585]
+                          - text: MIT
+                        - link "788 forks" [ref=e587] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-python/forks
+                          - img [ref=e588]
+                          - text: "788"
+                        - link "89 issues" [ref=e590] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-python/issues
+                          - img [ref=e591]
+                          - text: "89"
+                        - link "(1 issue needs help)" [ref=e594] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-python/issues?q=label%3A%22help+wanted%22+is%3Aissue+is%3Aopen
+                        - link "100 pull requests" [ref=e595] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-python/pulls
+                          - img [ref=e596]
+                          - text: "100"
+                        - generic [ref=e598]: Updated Mar 26, 2026
+                  - listitem [ref=e599]:
+                    - generic [ref=e600]:
+                      - generic [ref=e601]:
+                        - generic [ref=e602]:
+                          - link "claude-code-action" [ref=e603] [cursor=pointer]:
+                            - /url: /anthropics/claude-code-action
+                          - text: Public
+                        - link [ref=e605] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-action/graphs/commit-activity
+                          - img [ref=e607]
+                      - generic [ref=e610]:
+                        - generic [ref=e611]: TypeScript
+                        - link "6640 stars" [ref=e612] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-action/stargazers
+                          - img [ref=e613]
+                          - text: 6,640
+                        - generic [ref=e615]:
+                          - img [ref=e616]
+                          - text: MIT
+                        - link "1602 forks" [ref=e618] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-action/forks
+                          - img [ref=e619]
+                          - text: 1,602
+                        - link "324 issues" [ref=e621] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-action/issues
+                          - img [ref=e622]
+                          - text: "324"
+                        - link "(2 issues need help)" [ref=e625] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-action/issues?q=label%3A%22good+first+issue%22+is%3Aissue+is%3Aopen
+                        - link "148 pull requests" [ref=e626] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-action/pulls
+                          - img [ref=e627]
+                          - text: "148"
+                        - generic [ref=e629]: Updated Mar 26, 2026
+                  - listitem [ref=e630]:
+                    - generic [ref=e631]:
+                      - generic [ref=e632]:
+                        - generic [ref=e633]:
+                          - link "claude-code" [ref=e634] [cursor=pointer]:
+                            - /url: /anthropics/claude-code
+                          - text: Public
+                          - paragraph [ref=e635]: Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+                        - link [ref=e637] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/graphs/commit-activity
+                          - img [ref=e639]
+                      - generic [ref=e642]:
+                        - generic [ref=e643]: Shell
+                        - link "83251 stars" [ref=e644] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/stargazers
+                          - img [ref=e645]
+                          - text: 83,251
+                        - link "7000 forks" [ref=e647] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/forks
+                          - img [ref=e648]
+                          - text: 7,000
+                        - link "5,000+ issues" [ref=e650] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/issues
+                          - img [ref=e651]
+                          - text: 5,000+
+                        - link "397 pull requests" [ref=e654] [cursor=pointer]:
+                          - /url: /anthropics/claude-code/pulls
+                          - img [ref=e655]
+                          - text: "397"
+                        - generic [ref=e657]: Updated Mar 27, 2026
+                  - listitem [ref=e658]:
+                    - generic [ref=e659]:
+                      - generic [ref=e660]:
+                        - generic [ref=e661]:
+                          - link "claude-agent-sdk-typescript" [ref=e662] [cursor=pointer]:
+                            - /url: /anthropics/claude-agent-sdk-typescript
+                          - text: Public
+                        - link [ref=e664] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-typescript/graphs/commit-activity
+                          - img [ref=e666]
+                      - generic [ref=e669]:
+                        - generic [ref=e670]: Shell
+                        - link "1100 stars" [ref=e671] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-typescript/stargazers
+                          - img [ref=e672]
+                          - text: 1,100
+                        - link "119 forks" [ref=e674] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-typescript/forks
+                          - img [ref=e675]
+                          - text: "119"
+                        - link "103 issues" [ref=e677] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-typescript/issues
+                          - img [ref=e678]
+                          - text: "103"
+                        - link "5 pull requests" [ref=e681] [cursor=pointer]:
+                          - /url: /anthropics/claude-agent-sdk-typescript/pulls
+                          - img [ref=e682]
+                          - text: "5"
+                        - generic [ref=e684]: Updated Mar 26, 2026
+                  - listitem [ref=e685]:
+                    - generic [ref=e686]:
+                      - generic [ref=e687]:
+                        - generic [ref=e688]:
+                          - link "claude-code-base-action" [ref=e689] [cursor=pointer]:
+                            - /url: /anthropics/claude-code-base-action
+                          - text: Public
+                          - paragraph [ref=e690]:
+                            - text: This repo is a mirror of the contents of base-action in
+                            - link "https://github.com/anthropics/claude-code-action" [ref=e691] [cursor=pointer]:
+                              - /url: https://github.com/anthropics/claude-code-action
+                            - text: .
+                        - link [ref=e693] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-base-action/graphs/commit-activity
+                          - img [ref=e695]
+                      - generic [ref=e698]:
+                        - generic [ref=e699]: TypeScript
+                        - link "699 stars" [ref=e700] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-base-action/stargazers
+                          - img [ref=e701]
+                          - text: "699"
+                        - generic [ref=e703]:
+                          - img [ref=e704]
+                          - text: MIT
+                        - link "588 forks" [ref=e706] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-base-action/forks
+                          - img [ref=e707]
+                          - text: "588"
+                        - link "7 issues" [ref=e709] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-base-action/issues
+                          - img [ref=e710]
+                          - text: "7"
+                        - link "5 pull requests" [ref=e713] [cursor=pointer]:
+                          - /url: /anthropics/claude-code-base-action/pulls
+                          - img [ref=e714]
+                          - text: "5"
+                        - generic [ref=e716]: Updated Mar 27, 2026
+                  - listitem [ref=e717]:
+                    - generic [ref=e718]:
+                      - generic [ref=e719]:
+                        - generic [ref=e720]:
+                          - link "claude-plugins-official" [ref=e721] [cursor=pointer]:
+                            - /url: /anthropics/claude-plugins-official
+                          - text: Public
+                          - paragraph [ref=e722]: Official, Anthropic-managed directory of high quality Claude Code Plugins.
+                        - link [ref=e724] [cursor=pointer]:
+                          - /url: /anthropics/claude-plugins-official/graphs/commit-activity
+                          - img [ref=e726]
+                      - generic [ref=e729]:
+                        - generic [ref=e730]: Python
+                        - link "14885 stars" [ref=e731] [cursor=pointer]:
+                          - /url: /anthropics/claude-plugins-official/stargazers
+                          - img [ref=e732]
+                          - text: 14,885
+                        - link "1578 forks" [ref=e734] [cursor=pointer]:
+                          - /url: /anthropics/claude-plugins-official/forks
+                          - img [ref=e735]
+                          - text: 1,578
+                        - link "357 issues" [ref=e737] [cursor=pointer]:
+                          - /url: /anthropics/claude-plugins-official/issues
+                          - img [ref=e738]
+                          - text: "357"
+                        - link "28 pull requests" [ref=e741] [cursor=pointer]:
+                          - /url: /anthropics/claude-plugins-official/pulls
+                          - img [ref=e742]
+                          - text: "28"
+                        - generic [ref=e744]: Updated Mar 27, 2026
+                  - listitem [ref=e745]:
+                    - generic [ref=e746]:
+                      - generic [ref=e747]:
+                        - generic [ref=e748]:
+                          - link "anthropic-sdk-python" [ref=e749] [cursor=pointer]:
+                            - /url: /anthropics/anthropic-sdk-python
+                          - text: Public
+                        - link [ref=e751] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-sdk-python/graphs/commit-activity
+                          - img [ref=e753]
+                      - generic [ref=e756]:
+                        - generic [ref=e757]: Python
+                        - link "3019 stars" [ref=e758] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-sdk-python/stargazers
+                          - img [ref=e759]
+                          - text: 3,019
+                        - generic [ref=e761]:
+                          - img [ref=e762]
+                          - text: MIT
+                        - link "550 forks" [ref=e764] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-sdk-python/forks
+                          - img [ref=e765]
+                          - text: "550"
+                        - link "82 issues" [ref=e767] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-sdk-python/issues
+                          - img [ref=e768]
+                          - text: "82"
+                        - link "96 pull requests" [ref=e771] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-sdk-python/pulls
+                          - img [ref=e772]
+                          - text: "96"
+                        - generic [ref=e774]: Updated Mar 26, 2026
+                  - listitem [ref=e775]:
+                    - generic [ref=e776]:
+                      - generic [ref=e777]:
+                        - generic [ref=e778]:
+                          - link "anthropic-sdk-go" [ref=e779] [cursor=pointer]:
+                            - /url: /anthropics/anthropic-sdk-go
+                          - text: Public
+                          - paragraph [ref=e780]: Access to Anthropic's safety-first language model APIs via Go
+                        - link [ref=e782] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-sdk-go/graphs/commit-activity
+                          - img [ref=e784]
+                      - generic [ref=e787]:
+                        - generic [ref=e788]: Go
+                        - link "931 stars" [ref=e789] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-sdk-go/stargazers
+                          - img [ref=e790]
+                          - text: "931"
+                        - generic [ref=e792]:
+                          - img [ref=e793]
+                          - text: MIT
+                        - link "138 forks" [ref=e795] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-sdk-go/forks
+                          - img [ref=e796]
+                          - text: "138"
+                        - link "36 issues" [ref=e798] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-sdk-go/issues
+                          - img [ref=e799]
+                          - text: "36"
+                        - link "26 pull requests" [ref=e802] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-sdk-go/pulls
+                          - img [ref=e803]
+                          - text: "26"
+                        - generic [ref=e805]: Updated Mar 27, 2026
+                  - listitem [ref=e806]:
+                    - generic [ref=e807]:
+                      - generic [ref=e808]:
+                        - generic [ref=e809]:
+                          - link "anthropic-cli" [ref=e810] [cursor=pointer]:
+                            - /url: /anthropics/anthropic-cli
+                          - text: Public
+                        - link [ref=e812] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-cli/graphs/commit-activity
+                          - img [ref=e814]
+                      - generic [ref=e817]:
+                        - link "227 stars" [ref=e818] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-cli/stargazers
+                          - img [ref=e819]
+                          - text: "227"
+                        - link "14 forks" [ref=e821] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-cli/forks
+                          - img [ref=e822]
+                          - text: "14"
+                        - link "0 issues" [ref=e824] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-cli/issues
+                          - img [ref=e825]
+                          - text: "0"
+                        - link "1 pull request" [ref=e828] [cursor=pointer]:
+                          - /url: /anthropics/anthropic-cli/pulls
+                          - img [ref=e829]
+                          - text: "1"
+                        - generic [ref=e831]: Updated Mar 26, 2026
+                - link "View all repositories" [ref=e833] [cursor=pointer]:
+                  - /url: /orgs/anthropics/repositories?type=all
+        - generic [ref=e835]:
+          - generic [ref=e838]:
+            - link "People" [ref=e839] [cursor=pointer]:
+              - /url: /orgs/anthropics/people
+              - heading "People" [level=4] [ref=e840]
+            - generic [ref=e841]:
+              - link "@Mic92" [ref=e842] [cursor=pointer]:
+                - /url: /Mic92
+                - img "@Mic92" [ref=e843]
+              - link "@palcu" [ref=e844] [cursor=pointer]:
+                - /url: /palcu
+                - img "@palcu" [ref=e845]
+              - link "@felixrieseberg" [ref=e846] [cursor=pointer]:
+                - /url: /felixrieseberg
+                - img "@felixrieseberg" [ref=e847]
+              - link "@natemcmaster" [ref=e848] [cursor=pointer]:
+                - /url: /natemcmaster
+                - img "@natemcmaster" [ref=e849]
+              - link "@alfredxing" [ref=e850] [cursor=pointer]:
+                - /url: /alfredxing
+                - img "@alfredxing" [ref=e851]
+              - link "@tengyifei" [ref=e852] [cursor=pointer]:
+                - /url: /tengyifei
+                - img "@tengyifei" [ref=e853]
+              - link "@domdomegg" [ref=e854] [cursor=pointer]:
+                - /url: /domdomegg
+                - img "@domdomegg" [ref=e855]
+              - link "@cirospaciari" [ref=e856] [cursor=pointer]:
+                - /url: /cirospaciari
+                - img "@cirospaciari" [ref=e857]
+              - link "@lovesegfault" [ref=e858] [cursor=pointer]:
+                - /url: /lovesegfault
+                - img "@lovesegfault" [ref=e859]
+              - link "@alii" [ref=e860] [cursor=pointer]:
+                - /url: /alii
+                - img "@alii" [ref=e861]
+              - link "@chloeanT" [ref=e862] [cursor=pointer]:
+                - /url: /chloeanT
+                - img "@chloeanT" [ref=e863]
+          - generic [ref=e865]:
+            - heading "Top languages" [level=4] [ref=e866]
+            - link "Python" [ref=e867] [cursor=pointer]:
+              - /url: /orgs/anthropics/repositories?language=python&type=all
+              - generic [ref=e868]: Python
+            - link "Go" [ref=e869] [cursor=pointer]:
+              - /url: /orgs/anthropics/repositories?language=go&type=all
+              - generic [ref=e870]: Go
+            - link "Rust" [ref=e871] [cursor=pointer]:
+              - /url: /orgs/anthropics/repositories?language=rust&type=all
+              - generic [ref=e872]: Rust
+            - link "TypeScript" [ref=e873] [cursor=pointer]:
+              - /url: /orgs/anthropics/repositories?language=typescript&type=all
+              - generic [ref=e874]: TypeScript
+            - link "Jupyter Notebook" [ref=e875] [cursor=pointer]:
+              - /url: /orgs/anthropics/repositories?language=jupyter+notebook&type=all
+              - generic [ref=e876]: Jupyter Notebook
+          - generic [ref=e879]:
+            - heading "Most used topics" [level=4] [ref=e880]
+            - paragraph [ref=e881]: Loading…
+  - contentinfo [ref=e882]:
+    - heading "Footer" [level=2] [ref=e883]
+    - generic [ref=e884]:
+      - generic [ref=e885]:
+        - link "GitHub Homepage" [ref=e886] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e887]
+        - text: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e889]:
+        - heading "Footer navigation" [level=3] [ref=e890]
+        - list "Footer navigation" [ref=e891]:
+          - listitem [ref=e892]:
+            - link "Terms" [ref=e893] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e894]:
+            - link "Privacy" [ref=e895] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e896]:
+            - link "Security" [ref=e897] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e898]:
+            - link "Status" [ref=e899] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e900]:
+            - link "Community" [ref=e901] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e902]:
+            - link "Docs" [ref=e903] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e904]:
+            - link "Contact" [ref=e905] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e906]:
+            - button "Manage cookies" [ref=e908]
+          - listitem [ref=e909]:
+            - button "Do not share my personal information" [ref=e911]
